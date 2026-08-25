@@ -1,0 +1,27 @@
+---
+user-guide-title: Qualificateur de vente
+user-guide-description: Découvrez comment utiliser Sales Qualifier pour automatiser la qualification des prospects, la sensibilisation et l’engagement des acheteurs pour les équipes commerciales B2B.
+source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 30%
+
+---
+
+# Guide de Sales Qualifier {#using}
+
++ [Vue d’ensemble](home.md)
++ [Prise en main](getting-started.md)
++ [Prospects](prospects.md)
++ [Comptes](accounts.md)
++ [Workflows sortants](outbound-workflows.md)
++ [Boîte d’envoi d’e-mail](email-outbox.md)
++ [Tâches](tasks.md)
++ [Performance sortante](performance.md)
++ [Paramètres de profil](profile-settings.md)
++ [Centre de connaissances](knowledge-center.md)
++ [Intégrations](integrations.md)
++ [Rôles utilisateur et autorisations](user-roles-permissions.md)
++ [Conversation sur l’IA](ai-assistant.md)
++ [Paramètres d’administration](admin-settings.md)
++ [Notes de mise à jour](release-notes.md)
