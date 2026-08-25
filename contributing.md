@@ -19,7 +19,7 @@ vous acceptez de respecter ce code. Signaler tout comportement inacceptable à
 
 ## Guide du contributeur
 
-Voir le guide du contributeur aux [documents &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Voir le guide du contributeur aux [documents &#x200B;](https://experienceleague.adobe.com/fr/docs/contributor/contributor-guide/introduction).
 
 ## Poser une question
 
