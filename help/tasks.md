@@ -4,8 +4,11 @@ description: Découvrez comment traiter les tâches de sensibilisation manuelles
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 900
@@ -103,7 +106,7 @@ Sélectionnez une suggestion à examiner dans le panneau de travail :
 
 Deux actions sont disponibles :
 
-* **[!UICONTROL Examiner les prospects]**—Ouvrez le plan d&#39;engagement pour examiner et inscrire les prospects recommandés. Voir [ Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Examiner les prospects]**—Ouvrez le plan d&#39;engagement pour examiner et inscrire les prospects recommandés. Voir [&#x200B; Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Marquer comme terminé]**—Ignorez la suggestion après l&#39;avoir examinée.
 
 L’onglet **[!UICONTROL Suggestions d’agent]** comprend les filtres de statut **[!UICONTROL Actuel]**, **[!UICONTROL Terminé]** et **[!UICONTROL Annulé]**, un filtre Plan d’engagement et un tri par date de création.

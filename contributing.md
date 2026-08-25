@@ -15,11 +15,11 @@ Suivez ces instructions lorsque vous contribuez à ce projet.
 
 Ce projet respecte le code [de conduite](code-of-conduct.md) d’Adobe. En participant,
 vous acceptez de respecter ce code. Signaler tout comportement inacceptable à
-[](mailto:Grp-opensourceoffice@adobe.com).
+[&#128279;](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Guide du contributeur
 
-Voir le guide du contributeur aux [documents ](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Voir le guide du contributeur aux [documents &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 ## Poser une question
 
@@ -30,7 +30,7 @@ et les solutions proposées dans les threads de problème.
 
 Toutes les contributions tierces nécessitent un contrat de licence du contributeur signé.
 L’accord donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre de
-du projet. [Signez le contrat de licence du contributeur ](https://opensource.adobe.com/cla.html). Il le faut
+du projet. [Signez le contrat de licence du contributeur &#x200B;](https://opensource.adobe.com/cla.html). Il le faut
 envoyez le contrat de licence du contributeur Adobe une seule fois.
 
 ## Révisions du code

@@ -4,9 +4,16 @@ description: Découvrez comment effectuer la configuration d’administrateur un
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
 workflow-type: tm+mt
 source-wordcount: 1054
@@ -29,18 +36,18 @@ Deux groupes d’utilisateurs dans Adobe Admin Console contrôlent l’accès à
 >
 >L’administrateur ou l’administratrice qui crée les groupes doit répondre à ces deux exigences :
 >
->* Être un administrateur d’organisation ayant accès à **** à partir du sélecteur d’applications Adobe.
+>* Être un administrateur d’organisation ayant accès à **&#x200B;**&#x200B;à partir du sélecteur d’applications Adobe.
 >* être affecté au produit Adobe Experience Platform ou être administrateur système. Dans le cas contraire, Adobe Experience Platform n’apparaît pas dans la liste des produits.
 
 ### Utilisateurs de Sales Qualifier
 
 Les utilisateurs doivent appartenir au groupe d’utilisateurs `Sales Qualifier` pour accéder à l’application.
 
-1. Dans le sélecteur d’applications à neuf points, sélectionnez ****.
+1. Dans le sélecteur d’applications à neuf points, sélectionnez **&#x200B;**.
 1. Sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** > **[!UICONTROL Nouveau groupe d’utilisateurs]**.
 1. Saisissez `Sales Qualifier` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Profils de produit attribués]** et sélectionnez **[!UICONTROL Attribuer le profil]**.
-1. Sélectionnez ****.
+1. Sélectionnez **&#x200B;**.
 1. Sélectionnez le profil de produit **[!UICONTROL Accès à tous les produits de production par défaut]**, sélectionnez **[!UICONTROL Appliquer]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Utilisateurs]** et sélectionnez **[!UICONTROL Ajouter des utilisateurs]** pour ajouter tous ceux qui doivent accéder à Sales Qualifier.
 
@@ -63,7 +70,7 @@ Vous pouvez également créer un groupe de `Sales Qualifier BDR managers` facult
 
 ## Connexion à votre CRM
 
-Sales Qualifier se connecte à Salesforce ou à Microsoft Dynamics 365 pour offrir aux rapports sur l’ensemble des appareils une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Contactez votre administrateur CRM pour préparer les informations d’identification avant de connecter Sales Qualifier. Voir [ Intégrations ](integrations.md) pour plus d’informations sur l’intégration.
+Sales Qualifier se connecte à Salesforce ou à Microsoft Dynamics 365 pour offrir aux rapports sur l’ensemble des appareils une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Contactez votre administrateur CRM pour préparer les informations d’identification avant de connecter Sales Qualifier. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
 
 >[!PREREQUISITES]
 >
@@ -168,7 +175,7 @@ Après la connexion au CRM, configurez le mapping entrant pour choisir les champ
 
 Les champs de prospect apparaissent dans l’onglet **[!UICONTROL Personne]**, les champs de compte dans l’onglet **[!UICONTROL Compte]** et les champs d’opportunité apparaissent dans la section **[!UICONTROL Compte, opportunité]**. Activez **[!UICONTROL Filtrable]** pour chaque champ mappé dont les représentants ont besoin en tant que filtre.
 
-Voir [ Intégrations ](integrations.md#map-crm-fields-inbound-mapping) pour gérer le mappage et la synchronisation des champs.
+Voir [&#x200B; Intégrations &#x200B;](integrations.md#map-crm-fields-inbound-mapping) pour gérer le mappage et la synchronisation des champs.
 
 ## Étapes suivantes
 
