@@ -4,16 +4,12 @@ description: Découvrez comment créer, filtrer et examiner votre liste de prosp
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,19 +23,23 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 
 * **[!UICONTROL Leads]** : leads qui vous sont affectés dans le CRM connecté.
 * **[!UICONTROL Contacts]**—Contacts qui vous sont assignés dans le CRM connecté.
+* **[!UICONTROL Points forts marketing]** : prospects disposant d’une activité Marketo en direct, telle que les ouvertures d’e-mail ou les clics.
 * **[!UICONTROL Liste des personnes]** : prospects que vous importez ou ajoutez manuellement.
 
 ## Création de votre liste de prospects
 
 La liste des prospects regroupe des personnes provenant de plusieurs sources :
 
-* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md).
+* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md).
 * **Prospects importés**—Prospects importés à partir d&#39;un fichier CSV.
 * **Prospects ajoutés manuellement**—Prospects ajoutés individuellement dans Sales Qualifier.
 
 Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
 1. Sur la page **[!UICONTROL Prospects]**, sélectionnez **[!UICONTROL Liste des personnes]**.
+
+   ![Liste des personnes](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Sélectionnez **[!UICONTROL + Ajouter des personnes]** puis sélectionnez **[!UICONTROL Importer CSV]** ou **[!UICONTROL Ajouter une personne]**.
 
    * Pour un import CSV, chargez un fichier CSV au format `firstname,email`.
@@ -52,14 +52,14 @@ Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
 Sélectionnez **[!UICONTROL Filtrer]** pour affiner la liste. Vous pouvez filtrer par :
 
-* Statut du plan d’engagement
+* Statut du workflow sortant
 * Création par
 * Titre du traitement
 * Compte
 * Source
 * Dernière mise à jour
 
-Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [&#x200B; Mappage des champs CRM &#x200B;](integrations.md#map-crm-fields-inbound-mapping).
+Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [ Mappage des champs CRM ](integrations.md#map-crm-fields-inbound-mapping).
 
 Dans **[!UICONTROL Mes contacts d’opportunité]**, vous pouvez également filtrer les contacts par champs à partir des opportunités associées, telles que l’étape, le type et la date de fermeture. Les champs d’opportunité comportent des libellés tels que **[!UICONTROL Phase (Opportunité)]** qui les distinguent des champs de contact. Votre administrateur contrôle les champs d’opportunité disponibles en tant que filtres.
 

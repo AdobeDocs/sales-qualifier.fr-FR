@@ -3,14 +3,10 @@ title: Comptes dans Sales Qualifier
 description: Découvrez comment passer en revue les renseignements sur les comptes dans Sales Qualifier, y compris les recherches sur l’IA, les actualités récentes, les opportunités et les contacts les plus engagés, afin de donner la priorité à la sensibilisation.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -26,7 +22,7 @@ La vue de compte combine les recherches générées par l’IA, les actualités 
 
 Ouvrez un compte à partir du profil d’un prospect qui lui est associé.
 
-1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [&#x200B; Prospects &#x200B;](prospects.md).
+1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [ Prospects ](prospects.md).
 1. Sur la page des détails du prospect, sélectionnez l’onglet **[!UICONTROL Compte]**.
 
 Sales Qualifier identifie le compte à partir de l’enregistrement CRM du prospect. La même vue de compte est disponible pour chaque prospect associé à ce compte. Si Sales Qualifier ne peut pas correspondre à un compte, l’onglet affiche _Aucun compte trouvé_.
@@ -57,17 +53,17 @@ Le panneau **[!UICONTROL Présentation du compte]** résume le compte en fonctio
 
 Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vues de compte. Les vues disponibles dépendent de votre CRM et de votre configuration :
 
-| Afficher | Ce qu’il montre |
+| Affichage | Ce qu’il montre |
 | --- | --- |
 | **[!UICONTROL Opportunités]** | Opportunités ouvertes liées au compte, avec des champs clés pour chacune. Sélectionnez **[!UICONTROL Afficher tout]** pour afficher la liste complète dans un tableau. Les détails de l’opportunité, tels que l’étape, le type et la date de fermeture, peuvent également être utilisés pour filtrer les contacts du compte dans **[!UICONTROL Mes contacts d’opportunité]** lorsqu’un administrateur rend ces champs filtrables. |
 | **[!UICONTROL Membres principaux]** | Les contacts les plus engagés du compte, classés par engagement. Chaque contact affiche son intitulé de poste, son adresse e-mail, son score d’engagement et son indicateur d’urgence. |
 | **[!UICONTROL Données d’intention]** | Signaux d’intention d’achat pour le compte, tels que les produits et les sujets sur lesquels le compte fait des recherches. |
 | **[!UICONTROL Membres de l’équipe de compte]** | Personnes affectées au compte, avec leur adresse e-mail, fonction, territoire et groupe de produits. |
-| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md#map-crm-fields-inbound-mapping). |
 
 Dans la vue **[!UICONTROL Membres principaux]**, effectuez l’une des actions suivantes pour un contact :
 
-* **[!UICONTROL Ajouter au plan d&#39;engagement]**—Inscrivez le contact dans un [plan d&#39;engagement](outbound-workflows.md).
+* **[!UICONTROL Ajouter au workflow sortant]**—Inscrire le contact dans un [workflow sortant](outbound-workflows.md).
 * **[!UICONTROL Ajouter à la campagne Marketo]** : déclenchez une campagne [!DNL Marketo] pour le contact.
 
 ## Effectuer des recherches sur le compte
@@ -86,7 +82,7 @@ L’intelligence de compte est la plus précieuse lorsqu’elle façonne ce que 
 
 * Référencez un article récent ou un signal de recherche pour rendre votre ouverture pertinente au lieu d&#39;utiliser un argumentaire générique.
 * Vérifiez les opportunités ouvertes et la valeur du pipeline pour décider si vous souhaitez donner la priorité au compte.
-* Utilisez **[!UICONTROL Membres principaux]** pour identifier les personnes à contacter, puis inscrivez-les à un plan d’engagement.
+* Utilisez **[!UICONTROL Membres principaux]** pour identifier les personnes à contacter, puis inscrivez-les à un workflow sortant.
 * Demandez à [AI Chat](ai-assistant.md) de développer le positionnement du compte avant un appel.
 
 >[!MORELIKETHIS]

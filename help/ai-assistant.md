@@ -4,15 +4,11 @@ description: Découvrez comment utiliser le Module de conversation sur l’IA da
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +22,7 @@ Le Chat IA répond aux questions en langage naturel en fonction de votre context
 
 ## Ouvrir le chat IA
 
-Sélectionnez le bouton flottant **[!UICONTROL Conversation IA]** pour ouvrir le panneau de conversation. Le panneau s’ouvre en regard de la page active afin que vous puissiez garder un prospect, un compte ou un plan d’engagement à l’esprit. Faites glisser le bord du panneau pour le redimensionner. Pour fermer le panneau, sélectionnez à nouveau **[!UICONTROL Conversation IA]**.
+Sélectionnez le bouton flottant **[!UICONTROL Conversation IA]** pour ouvrir le panneau de conversation. Le panneau s’ouvre en regard de la page active afin que vous puissiez garder un prospect, un compte ou un workflow sortant en vue. Faites glisser le bord du panneau pour le redimensionner. Pour fermer le panneau, sélectionnez à nouveau **[!UICONTROL Conversation IA]**.
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ Utilisez le Module de conversation sur l’IA pour ces tâches :
 * **Recherche et résumé** : demandez un résumé d’un compte, d’un groupe d’achat ou de l’engagement récent d’un prospect.
 * **Créer le positionnement** : demandez à l’assistant de positionner votre solution pour un compte spécifique avant une réunion.
 * **Rédiger et affiner la portée** : demandez-lui d’écrire ou de réécrire un e-mail. Indiquez la tonalité, la longueur, la langue et si vous souhaitez inclure des émoticônes.
-* **Obtenir des recommandations** : demandez aux prospects ou aux comptes à prioriser ou demandez un objectif ou une cadence pour un nouveau plan d’engagement.
+* **Obtenir des recommandations** : demandez aux prospects ou aux comptes à prioriser ou demandez un objectif ou une cadence pour un nouveau workflow sortant.
 * **Rechercher les coordonnées** : demandez à l’assistant d’enrichir un prospect avec plus d’informations de contact et d’arrière-plan.
 
 ## Réponses au sol dans votre playbook
@@ -76,6 +72,6 @@ L’utilisation de l’IA Chat par votre entreprise est régie par les termes de
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md)
+>* [ Centre de connaissances ](knowledge-center.md)
 >* [Comptes](accounts.md)
 >* [Workflows sortants](outbound-workflows.md)

@@ -3,18 +3,12 @@ title: Gestion des intégrations
 description: Découvrez comment connecter Outlook, gérer les connexions CRM, mapper les champs entrants, synchroniser les activités et configurer le processus de désinscription globale aux e-mails dans Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -67,11 +61,11 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]
 | **[!UICONTROL Intégrations]** | **[!UICONTROL Connexions CRM]**, **[!UICONTROL Centre de connaissances]** |
 | **[!UICONTROL Conformité]** | **[!UICONTROL Paramètres de messagerie]** |
 
-Pour le Centre de connaissances, voir [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md).
+Pour le Centre de connaissances, voir [ Centre de connaissances ](knowledge-center.md).
 
 ## Gestion des connexions CRM
 
-Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **&#x200B;**&#x200B;et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
+Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **** et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
 
 | Statut | Signification |
 | --- | --- |
@@ -96,6 +90,8 @@ Une carte non configurée affiche **[!UICONTROL Connect]**. Une carte configuré
 
    Saisissez les valeurs **[!UICONTROL ID client (clé du client)]** **[!UICONTROL URL de l’instance]** et **[!UICONTROL secret client]**. Utilisez le `https://{{mydomain}}.my.salesforce.com` de formulaire d’URL d’instance canonique.
 
+   ![Connexion ](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB ]
 
    Saisissez les valeurs **[!UICONTROL ID client (clé du client)]** **[!UICONTROL ID client]**, **[!UICONTROL URL de l’instance Microsoft Dynamics]** et **[!UICONTROL secret client]**. Utilisez le `https://{{mydomain}}.crm.dynamics.com` de formulaire d’URL d’instance canonique.
@@ -117,7 +113,7 @@ Si Sales Qualifier rejette les informations d’identification, il identifie la 
 
 >[!WARNING]
 >
->Lorsque vous déconnectez un CRM, les plans d’engagement sont suspendus pour tous les prospects de votre organisation et aucun nouveau prospect ne se synchronise à partir de votre CRM jusqu’à ce que vous vous reconnectiez.
+>Lorsque vous déconnectez un CRM, les workflows sortants sont suspendus pour tous les prospects de votre organisation et aucun nouveau prospect ne se synchronise à partir de votre CRM jusqu’à ce que vous vous reconnectiez.
 
 ## Mappage des champs CRM (mapping entrant) {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +144,7 @@ Pour modifier une section ultérieurement, sélectionnez **[!UICONTROL Modifier]
 
 ## Configuration de la synchronisation des activités (mapping sortant) {#configure-activity-sync-outbound-mapping}
 
-La synchronisation des activités écrit les activités de sensibilisation Sales Qualifier dans votre CRM et Marketo. Les activités envoyées, ouvertes, sur lesquelles l’utilisateur a cliqué et auxquelles il a répondu incluent le nom du plan d’engagement. Les représentants peuvent voir les activités dans le CRM, tandis que les équipes marketing peuvent utiliser les activités Marketo dans la notation des prospects et les calendriers d’engagement.
+La synchronisation des activités écrit les activités de sensibilisation Sales Qualifier dans votre CRM et Marketo. Les activités E-mail envoyé, ouvert, sur lesquelles l’utilisateur a cliqué et a répondu incluent le nom du workflow sortant. Les représentants peuvent voir les activités dans le CRM, tandis que les équipes marketing peuvent utiliser les activités Marketo dans la notation des prospects et les calendriers d’engagement.
 
 1. Sur la carte CRM connectée, sélectionnez **[!UICONTROL Gérer]**.
 1. Ouvrez l’onglet **[!UICONTROL Mappage sortant]**.
@@ -160,20 +156,13 @@ Lorsque la synchronisation des activités est désactivée, Sales Qualifier cont
 >
 >La synchronisation des activités nécessite un accès en écriture dans votre CRM. Si l’autorisation requise est manquante, le commutateur est désactivé et Sales Qualifier vous invite à contacter votre administrateur. Pour octroyer l’accès en écriture aux activités, contactez votre administrateur CRM.
 
-## Activer le filtrage de l’engagement Marketo {#turn-on-marketo-engagement-filtering}
+## Configurer les points forts marketing {#turn-on-marketo-engagement-filtering}
 
-Le filtrage de l’engagement Marketo permet aux représentants de rechercher et de classer les prospects par engagement [!DNL Marketo] en direct, comme les ouvertures d’e-mail et les clics. Voir [Filtrer par engagement Marketo](prospects.md#filter-by-marketo-engagement).
+Les points forts marketing permettent aux représentants de trouver et de classer les prospects par engagement direct [!DNL Marketo], tel que les ouvertures d’e-mail et les clics. Voir [Filtrer par engagement Marketo](prospects.md#filter-by-marketo-engagement).
 
-Un administrateur active le filtrage de l’engagement Marketo pour l’organisation et le sandbox appropriés. Une fois activé, un spécialiste marketing effectue une configuration unique dans [!DNL Marketo].
+Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] à Sales Qualifier pour l’organisation et le sandbox appropriés. La configuration couvre la création d’informations d’identification d’API dans Adobe Developer Console, la configuration d’un webhook dans [!DNL Marketo] et l’ajout de ce webhook à un déclencheur Smart Campaign. Voir [Configurer les points forts marketing](marketing-highlights-setup.md) pour obtenir des instructions complètes.
 
-Pour transférer l’activité d’une campagne dynamique dans Sales Qualifier :
-
-1. Dans [!DNL Marketo], ouvrez la campagne intelligente dont vous souhaitez intégrer l’activité dans Sales Qualifier.
-1. Ajoutez une étape Appeler le Webhook au flux de campagne intelligente.
-
-Une fois l’étape webhook en place, l’activité de cette campagne intelligente se diffuse dans Sales Qualifier, et les représentants peuvent ainsi filtrer leurs prospects.
-
-Le filtrage de l’engagement Marketo est disponible dans toutes les régions de production : Amérique du Nord, EMEA et Australie.
+Les points forts marketing sont disponibles dans toutes les régions de production : Amérique du Nord, EMEA et Australie.
 
 ## Configuration du processus d’opt-out global des e-mails {#configure-global-email-opt-out}
 
