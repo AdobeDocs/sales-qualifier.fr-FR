@@ -1,19 +1,15 @@
 ---
 title: Prospects dans Sales Qualifier
-description: Découvrez comment créer, filtrer et examiner votre liste de prospects dans Sales Qualifier pour donner la priorité à la diffusion.
+description: Découvrez comment créer votre liste de prospects à partir de sources CRM, importées et ajoutées manuellement, filtrer les prospects et consulter les détails des prospects dans Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -34,7 +30,7 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 
 La liste des prospects regroupe des personnes provenant de plusieurs sources :
 
-* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md).
+* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md).
 * **Prospects importés**—Prospects importés à partir d&#39;un fichier CSV.
 * **Prospects ajoutés manuellement**—Prospects ajoutés individuellement dans Sales Qualifier.
 
@@ -63,22 +59,22 @@ Sélectionnez **[!UICONTROL Filtrer]** pour affiner la liste. Vous pouvez filtre
 * Source
 * Dernière mise à jour
 
-Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [&#x200B; Mappage des champs CRM &#x200B;](integrations.md#map-crm-fields-inbound-mapping).
+Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [ Mappage des champs CRM ](integrations.md#map-crm-fields-inbound-mapping).
 
 Dans **[!UICONTROL Mes contacts d’opportunité]**, vous pouvez également filtrer les contacts par champs à partir des opportunités associées, telles que l’étape, le type et la date de fermeture. Les champs d’opportunité comportent des libellés tels que **[!UICONTROL Phase (Opportunité)]** qui les distinguent des champs de contact. Votre administrateur contrôle les champs d’opportunité disponibles en tant que filtres.
 
-### Filtrer par engagement Marketo
+### Filtrer par points forts marketing
 
 Recherchez et hiérarchisez les prospects en fonction de leur engagement dans les [!DNL Marketo] en direct, tel que les ouvertures d’e-mail et les clics, les visites web, les remplissages de formulaires et les moments intéressants. L’engagement apparaît en temps quasi réel, comme cela se produit.
 
-Pour filtrer les prospects par engagement Marketo :
+Pour filtrer les prospects par points forts marketing :
 
 1. Sélectionnez **[!UICONTROL Filtrer]**.
-1. Ajoutez un filtre d’engagement [!DNL Marketo] et définissez le type d’activité, la campagne ou d’autres attributs pour vous concentrer sur l’engagement qui importe.
+1. Ajoutez un filtre Points forts marketing et définissez le type d’activité, la campagne ou d’autres attributs pour vous concentrer sur l’engagement qui compte.
 
 Chaque prospect montre sa dernière activité [!DNL Marketo] ainsi que son historique récent.
 
-Le filtrage de l’engagement Marketo est disponible dans toutes les régions de production. Votre administrateur l’active pour votre organisation et votre sandbox, et un spécialiste marketing effectue une configuration unique dans [!DNL Marketo]. Voir [Activation du filtrage de l’engagement Marketo](integrations.md#turn-on-marketo-engagement-filtering).
+L’option Points forts marketing est disponible dans toutes les régions de production. Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] à Sales Qualifier. Voir [Configurer les points forts marketing](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Consulter les détails du prospect
 

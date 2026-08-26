@@ -3,16 +3,10 @@ title: Gestion des intégrations
 description: Découvrez comment connecter Outlook, gérer les connexions CRM, mapper les champs entrants, synchroniser les activités et configurer le processus de désinscription globale aux e-mails dans Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
 source-wordcount: 1379
 ht-degree: 1%
@@ -67,11 +61,11 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]
 | **[!UICONTROL Intégrations]** | **[!UICONTROL Connexions CRM]**, **[!UICONTROL Centre de connaissances]** |
 | **[!UICONTROL Conformité]** | **[!UICONTROL Paramètres de messagerie]** |
 
-Pour le Centre de connaissances, voir [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md).
+Pour le Centre de connaissances, voir [ Centre de connaissances ](knowledge-center.md).
 
 ## Gestion des connexions CRM
 
-Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **&#x200B;**&#x200B;et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
+Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **** et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
 
 | Statut | Signification |
 | --- | --- |
@@ -96,7 +90,7 @@ Une carte non configurée affiche **[!UICONTROL Connect]**. Une carte configuré
 
    Saisissez les valeurs **[!UICONTROL ID client (clé du client)]** **[!UICONTROL URL de l’instance]** et **[!UICONTROL secret client]**. Utilisez le `https://{{mydomain}}.my.salesforce.com` de formulaire d’URL d’instance canonique.
 
-   ![Connexion &#x200B;](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Connexion ](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
    >[!TAB ]
 
@@ -164,7 +158,7 @@ Lorsque la synchronisation des activités est désactivée, Sales Qualifier cont
 
 ## Configurer les points forts marketing {#turn-on-marketo-engagement-filtering}
 
-Les points forts marketing permettent aux représentants de trouver et de classer les prospects par engagement direct [!DNL Marketo], tel que les ouvertures d’e-mail et les clics. Voir [Filtrer par engagement Marketo](prospects.md#filter-by-marketo-engagement).
+Les points forts marketing permettent aux représentants de trouver et de classer les prospects par engagement direct [!DNL Marketo], tel que les ouvertures d’e-mail et les clics. Voir [ Filtrer par points forts marketing ](prospects.md#filter-by-marketing-highlights).
 
 Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] à Sales Qualifier pour l’organisation et le sandbox appropriés. La configuration couvre la création d’informations d’identification d’API dans Adobe Developer Console, la configuration d’un webhook dans [!DNL Marketo] et l’ajout de ce webhook à un déclencheur Smart Campaign. Voir [Configurer les points forts marketing](marketing-highlights-setup.md) pour obtenir des instructions complètes.
 
