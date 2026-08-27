@@ -4,10 +4,14 @@ description: Découvrez comment utiliser le Module de conversation sur l’IA da
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 404
@@ -74,6 +78,6 @@ L’utilisation de l’IA Chat par votre entreprise est régie par les termes de
 
 >[!MORELIKETHIS]
 >
->* [ Centre de connaissances ](admin-settings.md#knowledge-center)
+>* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
 >* [Comptes](accounts.md)
 >* [Workflows sortants](outbound-workflows.md)
