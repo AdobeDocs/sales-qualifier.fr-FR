@@ -3,16 +3,12 @@ title: Comptes dans Sales Qualifier
 description: Découvrez comment passer en revue les renseignements sur les comptes dans Sales Qualifier, y compris les recherches sur l’IA, les actualités récentes, les opportunités et les contacts les plus engagés, afin de donner la priorité à la sensibilisation.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -26,8 +22,10 @@ La vue de compte combine les recherches générées par l’IA, les actualités 
 
 Ouvrez un compte à partir du profil d’un prospect qui lui est associé.
 
-1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [&#x200B; Prospects &#x200B;](prospects.md).
+1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [ Prospects ](prospects.md).
 1. Sur la page des détails du prospect, sélectionnez l’onglet **[!UICONTROL Compte]**.
+
+![Page de détails du prospect avec onglets Personne et Compte](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier identifie le compte à partir de l’enregistrement CRM du prospect. La même vue de compte est disponible pour chaque prospect associé à ce compte. Si Sales Qualifier ne peut pas correspondre à un compte, l’onglet affiche _Aucun compte trouvé_.
 
@@ -57,13 +55,13 @@ Le panneau **[!UICONTROL Présentation du compte]** résume le compte en fonctio
 
 Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vues de compte. Les vues disponibles dépendent de votre CRM et de votre configuration :
 
-| Affichage | Ce qu’il montre |
+| Afficher | Ce qu’il montre |
 | --- | --- |
 | **[!UICONTROL Opportunités]** | Opportunités ouvertes liées au compte, avec des champs clés pour chacune. Sélectionnez **[!UICONTROL Afficher tout]** pour afficher la liste complète dans un tableau. Les détails de l’opportunité, tels que l’étape, le type et la date de fermeture, peuvent également être utilisés pour filtrer les contacts du compte dans **[!UICONTROL Mes contacts d’opportunité]** lorsqu’un administrateur rend ces champs filtrables. |
 | **[!UICONTROL Membres principaux]** | Les contacts les plus engagés du compte, classés par engagement. Chaque contact affiche son intitulé de poste, son adresse e-mail, son score d’engagement et son indicateur d’urgence. |
 | **[!UICONTROL Données d’intention]** | Signaux d’intention d’achat pour le compte, tels que les produits et les sujets sur lesquels le compte fait des recherches. |
 | **[!UICONTROL Membres de l’équipe de compte]** | Personnes affectées au compte, avec leur adresse e-mail, fonction, territoire et groupe de produits. |
-| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md#map-crm-fields-inbound-mapping). |
 
 Dans la vue **[!UICONTROL Membres principaux]**, effectuez l’une des actions suivantes pour un contact :
 
@@ -77,6 +75,8 @@ L’onglet **[!UICONTROL Recherche de compte]** contient trois zones :
 * **[!UICONTROL Catégories de recherche]**—Thèmes de recherche. Sélectionnez une catégorie pour afficher sa recherche dans le volet central.
 * **Contenu de la recherche** - Cartes de recherche générées par l&#39;IA regroupées par catégorie. Une carte peut inclure le domaine source et les dates de la première et de la dernière détection du signal.
 * **[!UICONTROL Informations récentes]** : informations à jour sur le compte, notamment les dates, les balises et les liens sources.
+
+![Onglet Recherche de compte](./assets/account-detail.png){width="800" zoomable="yes"}
 
 Si la recherche ou les actualités ne peuvent pas se charger, chaque zone propose une action **[!UICONTROL Recharger]** pour réessayer.
 

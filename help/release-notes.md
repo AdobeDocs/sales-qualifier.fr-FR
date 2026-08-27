@@ -3,9 +3,9 @@ title: Notes de mise à jour de Sales Qualifier
 description: Découvrez les nouveautés du qualificateur de vente.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 12%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] est désormais disponible en tant qu’application autonome. Elle a d’abord été publiée dans le cadre de Adobe Journey Optimizer B2B.
+[!DNL Sales Qualifier] est désormais disponible en tant qu’application autonome. Il prend en charge Marketo et Adobe Journey Optimizer B2B.
 
 Cette version comprend les éléments suivants :
 
@@ -22,7 +22,7 @@ Cette version comprend les éléments suivants :
 * Workflows sortants pilotés par des objectifs avec cadences proposées par l’IA et brouillons d’e-mails. [En savoir plus](outbound-workflows.md).
 * Une file d’attente de tâches unifiée pour les appels téléphoniques, LinkedInMails et les révisions d’e-mails. [En savoir plus](tasks.md).
 * Réservation automatique des réunions via l&#39;intégration du calendrier. [En savoir plus](outbound-workflows.md#meeting-booking).
-* Un centre de connaissances pour ancrer la sensibilisation à l’IA dans votre propre matériel de playbook. [En savoir plus](knowledge-center.md).
+* Un centre de connaissances pour ancrer la sensibilisation à l’IA dans votre propre matériel de playbook. [En savoir plus](admin-settings.md#knowledge-center).
 * Discutez avec l’IA pour poser des questions en langage naturel en fonction de vos données CRM, d’engagement et de centre de connaissances. [En savoir plus](ai-assistant.md).
 * Rapports sur les performances des e-mails et des réservations de réunions. [En savoir plus](performance.md).
 * Plug-ins de navigateur et d’e-mail pour accéder à votre CRM ou Outlook. [En savoir plus](admin-settings.md#crm-mcp-and-the-embedded-plugin).

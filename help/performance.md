@@ -4,11 +4,10 @@ description: Découvrez comment passer en revue les rapports Performances de l�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Performances sortantes]** pour effectuer le suivi de l’activité sortante et des résultats au sein de votre équipe. Le tableau de bord comporte deux vues : **[!UICONTROL Performances de l’organisation]** et **[!UICONTROL Performances de la campagne]**.
 
-[Performance sortante](assets/outbound-performance.png){width="800" zoomable="yes"}
+![Performance sortante](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## Filtre et période
 
@@ -33,7 +32,7 @@ Ces commandes s’appliquent à la fois aux vues et à tous les onglets :
 
 ### Onglet Aperçu
 
-L’onglet **[!UICONTROL Aperçu]** résume les résultats sortants en un coup d’œil :
+L’onglet **[!UICONTROL Aperçu]** résume les résultats sortants en un coup d’œil. Cliquez sur l’une des cases pour afficher le graphique avec ces informations.
 
 * **Mosaïques** : pipeline, engagement dans les e-mails et activité manuelle, chacun avec une tendance à la modification par rapport à la période précédente.
 * **Graphique de tendance des performances** : performances sortantes sur la période sélectionnée.

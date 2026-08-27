@@ -4,18 +4,13 @@ description: Découvrez Sales Qualifier, une application gérée par IA qui auto
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -36,23 +31,23 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 * **Posez vos questions en langage naturel** avec le Module de conversation sur l’IA, qui utilise vos données de gestion de la relation client, d’engagement et de centre de connaissances.
 * **Suivre les performances de la sensibilisation** avec des rapports sur les e-mails et les réservations de réunions.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Explorer le guide
 
 ::::landing-cards-container
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Commencer
+Prise en main
 
 Effectuez la configuration d’administration unique pour les groupes d’utilisateurs et une connexion CRM.
 
-[Commencer](getting-started.md)
+[Prise en main](getting-started.md)
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Prospects
 
@@ -62,7 +57,7 @@ Créez, filtrez et examinez votre liste de prospects.
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Comptes
 
@@ -72,7 +67,7 @@ Privilégiez la sensibilisation avec le pipeline au niveau du compte et les donn
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Workflows sortants
 
@@ -82,7 +77,7 @@ Créez des cadences axées sur les objectifs avec des e-mails personnalisés gé
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Tâches
 
@@ -92,7 +87,7 @@ Traitez les tâches d’appel téléphonique, LinkedInMail et de révision d’e
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Performance
 
@@ -102,17 +97,17 @@ Vérifiez les performances des e-mails et des réservations de réunions.
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Centre de connaissances
 
 Créez un playbook qui étaye la sensibilisation et l’assistance de l’IA dans vos supports.
 
-[Centre de connaissances](knowledge-center.md)
+[Centre de connaissances](admin-settings.md#knowledge-center)
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Intégrations
 
@@ -122,7 +117,7 @@ Connectez Salesforce ou Microsoft Dynamics 365 et mappez vos champs.
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Paramètres de profil
 
@@ -132,17 +127,7 @@ Configurez la disponibilité de vos e-mails, signatures et calendriers.
 :::
 
 :::card
-![icône](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=fr)
-
-Rôles utilisateur et autorisations
-
-Comprendre le modèle de groupe d’utilisateurs et d’administrateurs.
-
-[Rôles utilisateur et autorisations](user-roles-permissions.md)
-:::
-
-:::card
-![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
+![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Conversation sur l’IA
 

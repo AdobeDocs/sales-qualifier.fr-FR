@@ -4,16 +4,10 @@ description: Découvrez comment créer, partager, réviser et gérer des workflo
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -72,7 +66,7 @@ Indiquez un résultat spécifique dans l’objectif. Par exemple, saisissez `Boo
 
 Les filtres de ciblage définissent les prospects éligibles. Lorsque vous ajoutez des prospects ultérieurement, seuls ceux qui correspondent à ces filtres apparaissent dans la liste de sélection.
 
-![&#x200B; Filtres de ciblage &#x200B;](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+![ Filtres de ciblage ](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
 
 1. Sélectionnez la flèche vers le bas pour ouvrir la liste **[!UICONTROL Ajouter un filtre]**, puis sélectionnez un filtre.
 
@@ -105,7 +99,7 @@ Définissez un délai du point de contact en jours, heures et minutes. Définiss
 
 #### Utiliser le Centre de connaissances dans les invites
 
-Si votre entreprise a créé un playbook [Centre de connaissances](knowledge-center.md), reportez-vous à celui-ci dans l’invite. Nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
+Si votre entreprise a créé un playbook [Centre de connaissances](admin-settings.md#knowledge-center), reportez-vous à celui-ci dans l’invite. Nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
 Lorsque le rythme et les invites sont prêts, sélectionnez **[!UICONTROL Suivant : Paramètres]**.
 
@@ -115,7 +109,7 @@ Affinez les invites de point de contact avant de générer les e-mails de prospe
 
 L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow sortant.
 
-![&#x200B; Panneau Paramètres &#x200B;](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+![ Panneau Paramètres ](assets/create-workflow-settings.png){width="800" zoomable="yes"}
 
 1. Vérifiez le **[!UICONTROL nom du workflow sortant]** et modifiez-le si nécessaire.
 1. Dans **[!UICONTROL Nombre maximal de prospects par workflow sortant]**, confirmez le nombre maximal de prospects que le workflow sortant peut gérer en même temps.
@@ -127,7 +121,7 @@ L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow 
 1. Sous **[!UICONTROL Autorisations]**, conservez **[!UICONTROL Privé]** (valeur par défaut) ou sélectionnez **[!UICONTROL Partagé avec tout le monde]**. Pour plus d’informations, voir [Partager un workflow sortant](#share-an-outbound-workflow).
 1. Sélectionnez **[!UICONTROL Enregistrer et ajouter des prospects]**.
 
-Le pied de page d’opt-out est configuré globalement par un administrateur et s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
+Le pied de page d’opt-out est configuré globalement par un administrateur et s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [ Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
 
 ### Étape 5 : ajouter des prospects et commencer la génération d’e-mails
 
@@ -214,7 +208,7 @@ Utilisez ces filtres pour que les workflows sortants partagés et les résultats
 Lorsqu’un prospect répond avec un message d’absence du bureau, le workflow sortant le gère automatiquement.
 
 * **Reprise automatique** : activé par défaut. Si la réponse d’absence du bureau comprend une date de retour, le workflow sortant reprend le rythme à cette date. Si aucune date de retour n’est indiquée, le workflow sortant reprend après une mémoire tampon de reprise que votre équipe peut configurer.
-* **Options manuelles** : un rep peut toujours sélectionner **[!UICONTROL Reprendre maintenant]** ou planifier une date de reprise spécifique. Voir [&#x200B; Gestion des workflows sortants existants &#x200B;](#manage-existing-outbound-workflows).
+* **Options manuelles** : un rep peut toujours sélectionner **[!UICONTROL Reprendre maintenant]** ou planifier une date de reprise spécifique. Voir [ Gestion des workflows sortants existants ](#manage-existing-outbound-workflows).
 
 ## Gestion des workflows sortants existants
 
@@ -245,5 +239,5 @@ Suivez les résultats de la réservation sur la page [Performances sortantes](pe
 >[!MORELIKETHIS]
 >
 >* [Tâches](tasks.md)
->* [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md)
+>* [ Centre de connaissances ](admin-settings.md#knowledge-center)
 >* [Performance sortante](performance.md)
