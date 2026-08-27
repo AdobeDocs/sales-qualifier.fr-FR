@@ -36,7 +36,7 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 * **Posez vos questions en langage naturel** avec le Module de conversation sur l’IA, qui utilise vos données de gestion de la relation client, d’engagement et de centre de connaissances.
 * **Suivre les performances de la sensibilisation** avec des rapports sur les e-mails et les réservations de réunions.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476563?captions=fre_fr)
 
 ## Explorer le guide
 
