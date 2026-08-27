@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -57,7 +57,7 @@ Le panneau **[!UICONTROL Présentation du compte]** résume le compte en fonctio
 
 Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vues de compte. Les vues disponibles dépendent de votre CRM et de votre configuration :
 
-| Afficher | Ce qu’il montre |
+| Affichage | Ce qu’il montre |
 | --- | --- |
 | **[!UICONTROL Opportunités]** | Opportunités ouvertes liées au compte, avec des champs clés pour chacune. Sélectionnez **[!UICONTROL Afficher tout]** pour afficher la liste complète dans un tableau. Les détails de l’opportunité, tels que l’étape, le type et la date de fermeture, peuvent également être utilisés pour filtrer les contacts du compte dans **[!UICONTROL Mes contacts d’opportunité]** lorsqu’un administrateur rend ces champs filtrables. |
 | **[!UICONTROL Membres principaux]** | Les contacts les plus engagés du compte, classés par engagement. Chaque contact affiche son intitulé de poste, son adresse e-mail, son score d’engagement et son indicateur d’urgence. |
@@ -67,7 +67,7 @@ Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vu
 
 Dans la vue **[!UICONTROL Membres principaux]**, effectuez l’une des actions suivantes pour un contact :
 
-* **[!UICONTROL Ajouter au plan d&#39;engagement]**—Inscrivez le contact dans un [plan d&#39;engagement](outbound-workflows.md).
+* **[!UICONTROL Ajouter au workflow sortant]**—Inscrire le contact dans un [workflow sortant](outbound-workflows.md).
 * **[!UICONTROL Ajouter à la campagne Marketo]** : déclenchez une campagne [!DNL Marketo] pour le contact.
 
 ## Effectuer des recherches sur le compte
@@ -86,7 +86,7 @@ L’intelligence de compte est la plus précieuse lorsqu’elle façonne ce que 
 
 * Référencez un article récent ou un signal de recherche pour rendre votre ouverture pertinente au lieu d&#39;utiliser un argumentaire générique.
 * Vérifiez les opportunités ouvertes et la valeur du pipeline pour décider si vous souhaitez donner la priorité au compte.
-* Utilisez **[!UICONTROL Membres principaux]** pour identifier les personnes à contacter, puis inscrivez-les à un plan d’engagement.
+* Utilisez **[!UICONTROL Membres principaux]** pour identifier les personnes à contacter, puis inscrivez-les à un workflow sortant.
 * Demandez à [AI Chat](ai-assistant.md) de développer le positionnement du compte avant un appel.
 
 >[!MORELIKETHIS]

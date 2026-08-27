@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ L’onglet **[!UICONTROL Tâches]** rend compte de la portée manuelle :
 
 ## Performances de la campagne
 
-**[!UICONTROL Performances de la campagne]** rend compte des résultats sortants par campagne du plan d’engagement :
+**[!UICONTROL Performances de la campagne]** génère des rapports sur les résultats sortants par campagne de workflow sortante :
 
 * **Mosaïques d’indicateurs clés de performance** : prospects actifs, taux d’ouverture, taux de clics, taux de réponse et réunions réservées.
 * **Graphique de tendance des mesures Campaign** : KPI de la campagne sur la période sélectionnée.

@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 ## Fonctionnalités de Sales Qualifier
 
 * **Hiérarchisez les prospects et les comptes** avec des résumés d’activités générés par l’IA et une hiérarchisation basée sur les signaux.
-* **Créer des plans d’engagement pilotés par les objectifs** dans lesquels l’IA propose une cadence et rédige des e-mails personnalisés pour chaque prospect.
+* **Créer des workflows sortants pilotés par les objectifs** dans lesquels l’IA propose une cadence et rédige des e-mails personnalisés pour chaque prospect.
 * **Traiter la sensibilisation dans une seule file d&#39;attente** pour les appels téléphoniques, LinkedInMails et les révisions d&#39;e-mails.
 * **Réservez automatiquement des réunions** en connectant votre calendrier et en insérant un lien de réservation personnel dans votre rythme.
 * **Informez les activités de sensibilisation de l’IA avec vos propres ressources** en créant un guide dans le Centre de connaissances.
@@ -44,11 +44,11 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 :::card
 ![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Prise en main
+Commencer
 
 Effectuez la configuration d’administration unique pour les groupes d’utilisateurs et une connexion CRM.
 
-[Prise en main](getting-started.md)
+[Commencer](getting-started.md)
 :::
 
 :::card

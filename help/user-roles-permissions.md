@@ -13,7 +13,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6a8091bd893ea80a26edfc1526646aec037223f
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 246
 ht-degree: 4%
@@ -29,7 +29,7 @@ Sales Qualifier utilise deux groupes d’utilisateurs requis pour séparer les t
 
 | Groupe | À qui appartient | Ce qu&#39;il accorde |
 | --- | --- | --- |
-| `Sales Qualifier` | Chaque utilisateur, y compris les administrateurs | Accès à l’application : prospects, comptes, plans d’engagement, tâches, performances et paramètres de profil. |
+| `Sales Qualifier` | Chaque utilisateur, y compris les administrateurs | Accès à l’application : prospects, comptes, workflows sortants, tâches, performances et paramètres de profil. |
 | `Sales Qualifier Admins` | Administrateurs uniquement, en plus du groupe `Sales Qualifier` | Accès à **[!UICONTROL Paramètres d’administration]**, qui régit les connexions CRM, le Centre de connaissances et les paramètres de conformité pour l’ensemble de l’organisation. |
 
 Les utilisateurs standard n’ont besoin que du groupe `Sales Qualifier` . Les administrateurs doivent être membres des deux groupes. Voir [Commencer](getting-started.md) pour créer ces groupes.

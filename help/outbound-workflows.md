@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: 1923
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 # Workflows sortants
 
-Un plan d’engagement est une cadence de sensibilisation axée sur les objectifs. Vous définissez l’objectif et les critères de ciblage. L’IA propose ensuite une cadence multipoint et écrit du contenu d’e-mail personnalisé pour chaque prospect. Avant d’activer le rythme, passez en revue et approuvez chaque e-mail.
+Un workflow sortant est une cadence de diffusion pilotée par les objectifs. Vous définissez l’objectif et les critères de ciblage. L’IA propose ensuite une cadence multipoint et écrit du contenu d’e-mail personnalisé pour chaque prospect. Avant d’activer le rythme, passez en revue et approuvez chaque e-mail.
 
-Un plan d’engagement relie quatre éléments :
+Un workflow sortant connecte quatre éléments :
 
 * **Objectif** : résultat que vous attendez de la sensibilisation, tel que la réservation d’un appel de découverte ou l’augmentation de l’enregistrement à un événement.
 * **Filtres de ciblage**—Conditions déterminant les prospects éligibles.
@@ -38,24 +38,24 @@ L’IA utilise l’objectif pour suggérer des filtres de ciblage, concevoir la 
 
 | Concept | Description |
 | --- | --- |
-| **Plan d’engagement** | Activité sortante réutilisable définie par un objectif, des filtres de ciblage, une cadence et des paramètres. |
+| **Workflow sortant** | Activité sortante réutilisable définie par un objectif, des filtres de ciblage, une cadence et des paramètres. |
 | **Objectif** | Ce que la sensibilisation devrait accomplir. |
 | **Point de contact** | Une étape de la cadence (e-mail, appel téléphonique ou LinkedInMail), planifiée par rapport à l’inscription. |
 | **invite de point de contact** | Instructions que l’IA suit lors de la génération de l’objet et du corps d’un e-mail pour un prospect, notamment le ton, la longueur, le focus et le call to action. |
 | **Cadence** | La séquence complète des points de contact : combien, dans quel ordre et à quels jours. |
-| **Filtre de ciblage** | Condition qui limite le plan d’engagement à un sous-ensemble de prospects. |
+| **Filtre de ciblage** | Une condition qui limite le workflow sortant à un sous-ensemble de prospects. |
 | **Brouillon** | Un e-mail généré qui est prêt pour la révision mais pas encore approuvé. |
 | **Raisonnement** | L’IA explique comment elle a écrit un e-mail donné, y compris les signaux et les sources de données qu’elle a utilisés. |
-| **Inscription** | Approuver les brouillons d’un prospect, ce qui active le rythme et met en file d’attente les e-mails à envoyer pendant la fenêtre d’envoi du plan d’engagement. |
+| **Inscription** | la validation des brouillons d’un prospect, qui active le rythme et met en file d’attente les e-mails à envoyer pendant la fenêtre d’envoi du workflow sortant ; |
 
-Les sections suivantes expliquent comment créer un plan d’engagement, passer en revue les e-mails générés, approuver les prospects et gérer les workflows sortants.
+Les sections suivantes expliquent comment créer un workflow sortant, passer en revue les e-mails générés, approuver les prospects et gérer les workflows sortants.
 
-## Créer un plan d’engagement
+## Création d’un workflow sortant
 
-L’assistant Plan d’engagement se compose de cinq étapes : **[!UICONTROL Objectif]**, **[!UICONTROL Ciblage]**, **[!UICONTROL Générer des points de contact]**, **[!UICONTROL Paramètres]** et **[!UICONTROL Ajouter des prospects]**. Votre objectif façonne les étapes restantes.
+L’assistant Workflow sortant se compose de cinq étapes : **[!UICONTROL Objectif]**, **[!UICONTROL Ciblage]**, **[!UICONTROL Générer des points de contact]**, **[!UICONTROL Paramètres]** et **[!UICONTROL Ajouter des prospects]**. Votre objectif façonne les étapes restantes.
 
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Workflows sortants]**.
-1. Dans l’onglet **[!UICONTROL Parcourir]**, sélectionnez **[!UICONTROL + Créer un plan d’engagement]** dans le coin supérieur droit.
+1. Dans l’onglet **[!UICONTROL Parcourir]**, sélectionnez **[!UICONTROL + Créer un workflow sortant]** dans le coin supérieur droit.
 
 ### Étape 1 : définir votre objectif
 
@@ -72,6 +72,8 @@ Indiquez un résultat spécifique dans l’objectif. Par exemple, saisissez `Boo
 
 Les filtres de ciblage définissent les prospects éligibles. Lorsque vous ajoutez des prospects ultérieurement, seuls ceux qui correspondent à ces filtres apparaissent dans la liste de sélection.
 
+![&#x200B; Filtres de ciblage &#x200B;](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+
 1. Sélectionnez la flèche vers le bas pour ouvrir la liste **[!UICONTROL Ajouter un filtre]**, puis sélectionnez un filtre.
 
 1. Définissez des valeurs pour le filtre.
@@ -83,7 +85,11 @@ Les filtres de ciblage définissent les prospects éligibles. Lorsque vous ajout
 
 Une fois le ciblage configuré, l’IA analyse l’objectif et les critères de ciblage, définit la cadence et écrit une invite pour chaque point de contact. Le rythme peut inclure des étapes d’e-mail, d’appel téléphonique et LinkedInMail.
 
+![Points de contact](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
+
 Développez un point de contact d’e-mail pour lire son invite. L’invite guide l’IA lorsqu’elle écrit l’e-mail de chaque prospect, y compris le ton, la durée, le focus et le call to action.
+
+La saisie d’une barre oblique `/` affiche la liste des jetons définis que vous pouvez utiliser pour personnaliser l’e-mail.
 
 #### Régénérer la cadence
 
@@ -105,21 +111,23 @@ Lorsque le rythme et les invites sont prêts, sélectionnez **[!UICONTROL Suivan
 
 Affinez les invites de point de contact avant de générer les e-mails de prospect. L’IA utilise ces invites pour chaque prospect sélectionné.
 
-### Étape 4 : configurer les paramètres du plan d’engagement
+### Étape 4 : configurer les paramètres du workflow sortant
 
-L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du plan d’engagement.
+L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow sortant.
 
-1. Passez en revue le **[!UICONTROL nom du plan d’engagement]** et modifiez-le si nécessaire.
-1. Dans **[!UICONTROL Nombre maximal de prospects par plan d’engagement]**, confirmez le nombre maximal de prospects que le plan d’engagement peut gérer simultanément.
+![&#x200B; Panneau Paramètres &#x200B;](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+
+1. Vérifiez le **[!UICONTROL nom du workflow sortant]** et modifiez-le si nécessaire.
+1. Dans **[!UICONTROL Nombre maximal de prospects par workflow sortant]**, confirmez le nombre maximal de prospects que le workflow sortant peut gérer en même temps.
 1. Définissez la **[!UICONTROL fenêtre d’envoi]** pour les heures pendant lesquelles les e-mails sortants sont autorisés à être envoyés.
 1. Sélectionnez les jours de la semaine où les e-mails peuvent être envoyés. Pour éviter les envois de week-end, sélectionnez uniquement les jours de la semaine au lieu d’utiliser un paramètre **[!UICONTROL Ignorer les week-ends]** distinct.
 1. Choisissez si vous souhaitez envoyer pendant les heures les plus actives de chaque prospect.
 1. Pour arrêter automatiquement les points de contact de suivi une fois qu’un prospect a réservé une réunion, activez **[!UICONTROL Pause de la réservation de réunion]**.
-1. Choisissez d’utiliser le fuseau horaire de chaque prospect ou le plan d’engagement **[!UICONTROL fuseau horaire]** pour la planification de l’envoi. Si vous utilisez le fuseau horaire du plan d’engagement, vérifiez qu’il correspond à votre audience.
-1. Sous **[!UICONTROL Autorisations]**, conservez **[!UICONTROL Privé]** (valeur par défaut) ou sélectionnez **[!UICONTROL Partagé avec tout le monde]**. Pour plus d’informations, voir [Partager un plan d’engagement](#share-an-engagement-plan).
+1. Choisissez d’utiliser le fuseau horaire de chaque prospect ou le fuseau horaire du workflow sortant **[!UICONTROL Fuseau horaire]** pour la planification de l’envoi. Si vous utilisez le fuseau horaire du workflow sortant, vérifiez qu’il correspond à votre audience.
+1. Sous **[!UICONTROL Autorisations]**, conservez **[!UICONTROL Privé]** (valeur par défaut) ou sélectionnez **[!UICONTROL Partagé avec tout le monde]**. Pour plus d’informations, voir [Partager un workflow sortant](#share-an-outbound-workflow).
 1. Sélectionnez **[!UICONTROL Enregistrer et ajouter des prospects]**.
 
-Le pied de page d’opt-out est configuré globalement par un administrateur et s’applique aux e-mails sortants indépendamment des paramètres du plan d’engagement. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
+Le pied de page d’opt-out est configuré globalement par un administrateur et s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
 
 ### Étape 5 : ajouter des prospects et commencer la génération d’e-mails
 
@@ -139,9 +147,9 @@ Pour chaque prospect, l’IA associe l’invite de point de contact aux données
 
 ## Consulter et affiner les e-mails générés
 
-Une fois la génération terminée, la vue détaillée du plan d’engagement vous invite à examiner les brouillons. Sales Qualifier n’envoie pas d’e-mail tant que vous ne l’avez pas approuvé.
+Une fois la génération terminée, la vue détaillée du workflow sortant vous invite à consulter les brouillons. Sales Qualifier n’envoie pas d’e-mail tant que vous ne l’avez pas approuvé.
 
-1. Dans la vue détaillée du plan d’engagement, sélectionnez **[!UICONTROL Vérifier les brouillons]** dans la bannière.
+1. Dans la vue détaillée du workflow sortant, sélectionnez **[!UICONTROL Vérifier les brouillons]** dans la bannière.
 1. L’étape **[!UICONTROL Vérifier les points de contact]** comporte deux onglets :
    * **[!UICONTROL Prêt pour la révision]** : les e-mails dont la génération est terminée.
    * **[!UICONTROL Génération]** : les e-mails en cours d’écriture.
@@ -184,17 +192,17 @@ La validation active le rythme d’un prospect. Le système n’envoie pas d’e
 1. Dans la liste de gauche des prospects, sélectionnez les prospects dont vous avez vérifié les e-mails et qui sont prêts à envoyer.
 1. Sélectionnez **[!UICONTROL Approuver et inscrire les prospects]** dans le coin inférieur droit.
 
-Les e-mails approuvés sont envoyés en fonction des jours sélectionnés du plan d’engagement, de la fenêtre d’envoi, de l’option des heures d’activité et du paramètre de fuseau horaire. Un point de contact avec un retard nul envoie sans attente ; chaque autre point de contact suit son retard configuré. Les prospects non approuvés sont toujours dans l’état **[!UICONTROL Prêt pour la révision]**.
+Les e-mails approuvés sont envoyés en fonction des jours sélectionnés du workflow sortant, de la fenêtre d’envoi, de l’option des heures actives et du paramètre de fuseau horaire. Un point de contact avec un retard nul envoie sans attente ; chaque autre point de contact suit son retard configuré. Les prospects non approuvés sont toujours dans l’état **[!UICONTROL Prêt pour la révision]**.
 
-## Partager un plan d’engagement
+## Partage d’un workflow sortant
 
-Chaque plan d’engagement comporte un paramètre **[!UICONTROL Autorisations]**. Les workflows sortants sont **[!UICONTROL privés]** par défaut. Le propriétaire peut sélectionner **[!UICONTROL Partagé avec tout le monde]** pour rendre un plan d’engagement disponible pour l’équipe.
+Chaque workflow sortant comporte un paramètre **[!UICONTROL Autorisations]**. Les workflows sortants sont **[!UICONTROL privés]** par défaut. Le propriétaire peut sélectionner **[!UICONTROL Partagé avec tout le monde]** pour rendre un workflow sortant disponible pour l’équipe.
 
 >[!CAUTION]
 >
->Le partage est permanent. Une fois qu’un plan d’engagement est défini sur **[!UICONTROL Partagé avec tout le monde]**, il ne peut pas être redéfini sur **[!UICONTROL Privé]**.
+>Le partage est permanent. Une fois qu’un workflow sortant est défini sur **[!UICONTROL Partagé avec tout le monde]**, il ne peut pas être redéfini sur **[!UICONTROL Privé]**.
 
-Dans un plan d’engagement partagé, les coéquipiers peuvent inscrire leurs propres prospects. Chaque personne ne peut gérer ou suspendre que les prospects auxquels elle est inscrite, y compris lors de l’utilisation d’actions en masse. Le propriétaire du plan d’engagement peut modifier seul les paramètres au niveau du plan, y compris la planification, le fuseau horaire, la cadence et d’autres paramètres. Ces paramètres sont en lecture seule pour les coéquipiers.
+Sur un workflow sortant partagé, les coéquipiers peuvent inscrire leurs propres prospects. Chaque personne ne peut gérer ou suspendre que les prospects auxquels elle est inscrite, y compris lors de l’utilisation d’actions en masse. Le propriétaire du workflow sortant peut modifier seul les paramètres au niveau du plan, y compris la planification, le fuseau horaire, la cadence et d’autres paramètres. Ces paramètres sont en lecture seule pour les coéquipiers.
 
 Utilisez ces filtres pour que les workflows sortants partagés et les résultats restent ciblés :
 
@@ -203,14 +211,14 @@ Utilisez ces filtres pour que les workflows sortants partagés et les résultats
 
 ## Gestion des réponses d’absence du bureau
 
-Lorsqu’un prospect répond avec un message d’absence du bureau, le plan d’engagement le gère automatiquement.
+Lorsqu’un prospect répond avec un message d’absence du bureau, le workflow sortant le gère automatiquement.
 
-* **Reprise automatique** : activé par défaut. Si la réponse d’absence du bureau comprend une date de retour, le plan d’engagement reprend le rythme à cette date. Si aucune date de retour n’est fournie, le plan d’engagement reprend après la mise en mémoire tampon de reprise que votre équipe peut configurer.
-* **Options manuelles** : vous pouvez également reprendre, mettre en pause ou ignorer manuellement le prospect. Voir [&#x200B; Gestion des workflows sortants existants &#x200B;](#manage-existing-engagement-plans).
+* **Reprise automatique** : activé par défaut. Si la réponse d’absence du bureau comprend une date de retour, le workflow sortant reprend le rythme à cette date. Si aucune date de retour n’est indiquée, le workflow sortant reprend après une mémoire tampon de reprise que votre équipe peut configurer.
+* **Options manuelles** : un rep peut toujours sélectionner **[!UICONTROL Reprendre maintenant]** ou planifier une date de reprise spécifique. Voir [&#x200B; Gestion des workflows sortants existants &#x200B;](#manage-existing-outbound-workflows).
 
 ## Gestion des workflows sortants existants
 
-Sur la page **[!UICONTROL Workflows sortants]**, l’onglet **[!UICONTROL Parcourir]** répertorie tous les plans d’engagement disponibles. Chaque carte affiche l’objectif, les points de contact configurés et les mesures de performances. Utilisez cette vue pour surveiller les workflows sortants, réviser les brouillons ou ajouter des prospects.
+Sur la page **[!UICONTROL Workflows sortants]**, l’onglet **[!UICONTROL Parcourir]** répertorie tous les workflows sortants disponibles. Chaque carte affiche l’objectif, les points de contact configurés et les mesures de performances. Utilisez cette vue pour surveiller les workflows sortants, réviser les brouillons ou ajouter des prospects.
 
 ## Boîte d’envoi d’e-mail
 
@@ -222,13 +230,13 @@ Lorsque vous connectez votre calendrier, Sales Qualifier génère un lien de ré
 
 * **Liens de réservation**—Configurez la connexion et la disponibilité de votre calendrier dans [Paramètres du profil](profile-settings.md). Ajoutez le lien de réservation à votre signature d’e-mail afin qu’il apparaisse dans les e-mails sortants.
 * **Placement de cadence** : Sales Qualifier insère votre lien de réservation aux points pertinents d’une cadence. Vous pouvez modifier son emplacement.
-* **Pause de la réservation** : lorsqu’un prospect réserve une réunion, **[!UICONTROL Pause de la réservation de la réunion]** arrête les autres suivis. Voir [Étape 4 : Configurer les paramètres du plan d’engagement](#step-4-configure-engagement-plan-settings).
+* **Pause de la réservation** : lorsqu’un prospect réserve une réunion, **[!UICONTROL Pause de la réservation de la réunion]** arrête les autres suivis. Voir [Étape 4 : Configurer les paramètres de workflow sortant](#step-4-configure-outbound-workflow-settings).
 
 Suivez les résultats de la réservation sur la page [Performances sortantes](performance.md).
 
-## Bonnes pratiques relatives au plan d’engagement
+## Bonnes pratiques relatives au workflow sortant
 
-* **Définissez un objectif spécifique.** Le ciblage, la cadence et les e-mails dérivent tous de l’objectif . Indiquez le résultat que vous souhaitez que le plan d’engagement atteigne.
+* **Définissez un objectif spécifique.** Le ciblage, la cadence et les e-mails dérivent tous de l’objectif . Indiquez le résultat que vous souhaitez que le workflow sortant atteigne.
 * **Finalisez les invites de point de contact avant la génération par prospect.** Après la génération en bloc, les modifications sont généralement apportées un prospect à la fois.
 * **Utiliser le raisonnement comme contrôle de qualité.** Si le mauvais signal est mis en évidence ou si un signal approprié est manquant, modifiez l’e-mail ou révisez l’invite de point de contact et régénérez la cadence.
 * **Faire correspondre l’outil d’édition à la modification.** Utiliser des modifications directes du libellé et du ton. Utilisez **[!UICONTROL Générer avec l’IA]** pour restructurer ou recadrer.

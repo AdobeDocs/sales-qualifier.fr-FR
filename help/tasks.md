@@ -9,7 +9,7 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 900
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Tâches
 
-Utilisez **[!UICONTROL Tâches]** pour exécuter les actions générées par les plans d’engagement. Sélectionnez une tâche, effectuez une action, marquez la tâche comme terminée et passez à la tâche suivante sans quitter la page.
+Utilisez **[!UICONTROL Tâches]** pour exécuter les actions générées par les workflows sortants. Sélectionnez une tâche, effectuez une action, marquez la tâche comme terminée et passez à la tâche suivante sans quitter la page.
 
 Dans le volet de navigation de gauche, accédez à **[!UICONTROL Activités]** > **[!UICONTROL Tâches]**.
 
@@ -27,8 +27,8 @@ Dans le volet de navigation de gauche, accédez à **[!UICONTROL Activités]** >
 
 La page comporte deux onglets :
 
-* **[!UICONTROL Tâches manuelles]**—Appels téléphoniques, LinkedInMails et révisions des e-mails pour les prospects inscrits à un plan d’engagement.
-* **[!UICONTROL Suggestions d’agent]** : prospects correspondant aux critères de ciblage d’un plan d’engagement et recommandés pour l’inscription.
+* **[!UICONTROL Tâches manuelles]**—Appels téléphoniques, LinkedInMails et révisions d&#39;e-mails pour les prospects inscrits à un workflow sortant.
+* **[!UICONTROL Suggestions d’agent]** : prospects correspondant aux critères de ciblage d’un workflow sortant et recommandés pour l’inscription.
 
 Chaque onglet possède ses propres filtres, options de tri et disposition à deux panneaux. La liste des tâches s’affiche à gauche, et le panneau de travail à droite. La sélection d’une tâche charge ses détails dans le panneau de travail. Lorsque vous terminez une tâche, la tâche suivante est automatiquement sélectionnée.
 
@@ -36,7 +36,7 @@ Chaque onglet possède ses propres filtres, options de tri et disposition à deu
 
 ### Types de tâches
 
-Les tâches manuelles sont liées aux étapes du plan d’engagement et sont disponibles en trois types :
+Les tâches manuelles sont liées aux étapes de workflow sortant et existent en trois types :
 
 * **[!UICONTROL Appel téléphonique]** : créé lorsqu’une cadence atteint une étape d’appel téléphonique. Le panneau de travail affiche le numéro de téléphone du prospect et, le cas échéant, un script d’appel généré par l’IA.
 
@@ -49,7 +49,7 @@ Les tâches manuelles sont liées aux étapes du plan d’engagement et sont dis
 Pour une tâche **[!UICONTROL Appel téléphonique]** ou **[!UICONTROL LinkedInMail]**, le panneau de travail contient :
 
 * **[!UICONTROL Prospect]** : le nom du prospect, le lien de l&#39;e-mail et le numéro de téléphone, le cas échéant.
-* **[!UICONTROL Plan d’engagement]** : le nom du plan d’engagement associé, la date d’échéance et l’indicateur d’omission automatique, le cas échéant.
+* **[!UICONTROL Workflow sortant]** : nom du workflow sortant lié, date d’échéance et indicateur d’omission automatique, le cas échéant.
 * **Contenu de la tâche** : script d&#39;appel ou contenu InMail.
 * **[!UICONTROL Notes]** : les notes sont enregistrées automatiquement lorsque vous sélectionnez une autre tâche. Vous ne pouvez pas modifier de notes une fois qu’une tâche est terminée, ignorée ou annulée.
 
@@ -62,7 +62,7 @@ Pour une tâche **[!UICONTROL Appel téléphonique]**, sélectionnez **[!UICONTR
 Deux actions sont disponibles à partir de l’en-tête du panneau de travail :
 
 * **[!UICONTROL Marquer comme terminé]** : utilisez cette action après avoir passé l&#39;appel, envoyé l&#39;InMail ou examiné les e-mails. La file d&#39;attente passe à la tâche suivante.
-* **[!UICONTROL Ignorer]** : utilisez cette action lorsque vous ne pouvez pas terminer l’étape mais que vous souhaitez conserver le prospect dans le plan d’engagement. Le prospect passe à l’étape de cadence suivante.
+* **[!UICONTROL Ignorer]** : utilisez cette action lorsque vous ne pouvez pas terminer l’étape, mais que vous souhaitez conserver le prospect dans le workflow sortant. Le prospect passe à l’étape de cadence suivante.
 
 Les tâches d’appel téléphonique et LinkedInMail peuvent être automatiquement ignorées si elles restent ouvertes au-delà du seuil configuré. Un saut automatique fait progresser le prospect tout au long de la cadence et n’affecte pas les points de contact d’e-mail planifiés.
 
@@ -74,9 +74,9 @@ La barre d’outils située au-dessus de la liste contrôle les tâches qui appa
   * **[!UICONTROL Statut]**—**[!UICONTROL Actuel]**, **[!UICONTROL À Venir]**, **[!UICONTROL En Retard]**, **[!UICONTROL Terminé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Ignoré]**.
   * **[!UICONTROL Type de tâche]**—**[!UICONTROL Révision par e-mail]**, **[!UICONTROL LinkedIn InMail]**, **[!UICONTROL Appel téléphonique]**.
   * **[!UICONTROL Date d’échéance]**.
-  * **[!UICONTROL Plan d’engagement]** : liste consultable de vos plans d’engagement.
+  * **[!UICONTROL Workflow sortant]** : liste interrogeable de vos workflows sortants.
 * **[!UICONTROL Trier]**—Trier par date d&#39;échéance ou date de création. L’ordre de tri détermine également l’ordre dans lequel la file d’attente avance.
-* **[!UICONTROL Rechercher des tâches]** : recherchez des tâches par nom de prospect, nom de société ou plan d&#39;engagement. La recherche s’applique avec les filtres actifs.
+* **[!UICONTROL Rechercher des tâches]** : recherchez des tâches par nom de prospect, nom de société ou workflow sortant. La recherche s’applique avec les filtres actifs.
 
 Les filtres actifs s’affichent sous forme de puces sous la barre d’outils. Sélectionnez **[!UICONTROL Effacer tout]** pour les réinitialiser.
 
@@ -90,14 +90,14 @@ Chaque tâche affiche son statut actuel :
 | **[!UICONTROL À venir]** | L’étape précédente est terminée, mais la date d’échéance se situe dans le futur. Vous pouvez agir tôt si le moment est venu. |
 | **[!UICONTROL En retard]** | A dépassé la date d&#39;échéance et n&#39;est pas encore terminé. La tâche est marquée pour attention. |
 | **[!UICONTROL Terminé]** | Vous avez terminé l’action et marqué la tâche comme terminée. |
-| **[!UICONTROL Ignoré]** | Vous avez ignoré l’étape ou elle a été automatiquement ignorée. La perspective progresse dans le plan d’engagement. |
-| **[!UICONTROL Annulé]** | Le système a annulé la tâche en raison d&#39;une modification du plan d&#39;engagement. |
+| **[!UICONTROL Ignoré]** | Vous avez ignoré l’étape ou elle a été automatiquement ignorée. Le prospect progresse dans le workflow sortant. |
+| **[!UICONTROL Annulé]** | Le système a annulé la tâche en raison d&#39;une modification du workflow sortant. |
 
 Les tâches terminées, ignorées et annulées sont finales. Leurs actions ne sont plus disponibles et leurs notes sont en lecture seule.
 
 ## Suggestions d’agent
 
-L’onglet **[!UICONTROL Suggestions d’agent]** répertorie les prospects qui correspondent aux critères de ciblage d’un plan d’engagement et sont recommandés pour l’inscription. Pour activer les recommandations, voir [Workflows sortants](outbound-workflows.md).
+L’onglet **[!UICONTROL Suggestions d’agent]** répertorie les prospects correspondant aux critères de ciblage d’un workflow sortant et sont recommandés pour l’inscription. Pour activer les recommandations, voir [Workflows sortants](outbound-workflows.md).
 
 Sélectionnez une suggestion à examiner dans le panneau de travail :
 
@@ -106,14 +106,14 @@ Sélectionnez une suggestion à examiner dans le panneau de travail :
 
 Deux actions sont disponibles :
 
-* **[!UICONTROL Examiner les prospects]**—Ouvrez le plan d&#39;engagement pour examiner et inscrire les prospects recommandés. Voir [&#x200B; Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Vérifier les prospects]**—Ouvrez le workflow sortant pour vérifier et inscrire les prospects recommandés. Voir [&#x200B; Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Marquer comme terminé]**—Ignorez la suggestion après l&#39;avoir examinée.
 
-L’onglet **[!UICONTROL Suggestions d’agent]** comprend les filtres de statut **[!UICONTROL Actuel]**, **[!UICONTROL Terminé]** et **[!UICONTROL Annulé]**, un filtre Plan d’engagement et un tri par date de création.
+L’onglet **[!UICONTROL Suggestions d’agent]** comprend les filtres de statut **[!UICONTROL Actuel]**, **[!UICONTROL Terminé]** et **[!UICONTROL Annulé]**, un filtre Workflow sortant et un tri par date de création.
 
-## Effectuer des tâches à partir d’un plan d’engagement
+## Effectuer des tâches à partir d’un workflow sortant
 
-Sur la vue **[!UICONTROL Prospects engagés]** d’un plan d’engagement, un point de contact manuel fournit les mêmes options **[!UICONTROL Marquer comme terminé]**, **[!UICONTROL Ignorer]** et Notes. Y terminer une tâche met également à jour son statut sur la page **[!UICONTROL Tâches]**. Voir [Workflows sortants](outbound-workflows.md).
+Sur la vue **[!UICONTROL Prospects engagés]** d’un workflow sortant, un point de contact manuel fournit les mêmes options **[!UICONTROL Marquer comme terminé]**, **[!UICONTROL Ignorer]** et Notes. Y terminer une tâche met également à jour son statut sur la page **[!UICONTROL Tâches]**. Voir [Workflows sortants](outbound-workflows.md).
 
 ## États vides
 
