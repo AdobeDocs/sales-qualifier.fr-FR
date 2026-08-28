@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # Configurer les points forts marketing
 
-Les mises en surbrillance marketing affichent l’activité de [!DNL Marketo] en direct de chaque prospect, comme les ouvertures d’e-mail et les clics, les visites web et les remplissages de formulaires, dans l’onglet **[!UICONTROL Mises en surbrillance marketing]** d’un prospect dans Sales Qualifier. Cet article explique comment connecter votre instance [!DNL Marketo] afin que l’activité se propage.
+Faits saillants marketing présente l’activité de [!DNL Marketo] en direct de chaque prospect, comme les ouvertures d’e-mail et les clics, les visites web et les remplissages de formulaires. Cet article explique comment connecter votre instance [!DNL Marketo] afin que l’activité se propage.
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ Vous avez besoin de trois valeurs pour [Partie C](#part-c-configure-the-marketo-
 * **ID d’organisation IMS** : identifiant de votre organisation dans le système Adobe Identity Management (IMS), sous la forme `{ORG_ID}@AdobeOrg`.
 * **Nom du sandbox** : nom de votre sandbox AEP tel qu’il apparaît dans l’URL de Sales Qualifier (valeur de `sname`), et non pas nom d’affichage affiché dans l’interface utilisateur. Utilisez la valeur d’URL en minuscules, par exemple `prod`, et non `Prod`.
 
-| Zone géographique | URL du point d’entrée Webhook |
+| Région | URL du point d’entrée Webhook |
 | --- | --- |
 | Amérique du Nord | `https://5r6xakp9k3.execute-api.us-east-1.amazonaws.com/prod/external/marketo/signals` |
 | EMEA | `https://pc72i8q1k3.execute-api.eu-west-1.amazonaws.com/prod/external/marketo/signals` |

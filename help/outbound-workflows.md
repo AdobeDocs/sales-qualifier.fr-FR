@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ Définissez un délai du point de contact en jours, heures et minutes. Définiss
 
 #### Utiliser le Centre de connaissances dans les invites
 
-Si votre entreprise a créé un playbook [Centre de connaissances](knowledge-center.md), reportez-vous à celui-ci dans l’invite. Nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
+Si votre entreprise a créé un playbook [Centre de connaissances](admin-settings.md#knowledge-center), reportez-vous à celui-ci dans l’invite. Nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
 Lorsque le rythme et les invites sont prêts, sélectionnez **[!UICONTROL Suivant : Paramètres]**.
 
@@ -245,5 +245,5 @@ Suivez les résultats de la réservation sur la page [Performances sortantes](pe
 >[!MORELIKETHIS]
 >
 >* [Tâches](tasks.md)
->* [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md)
+>* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
 >* [Performance sortante](performance.md)

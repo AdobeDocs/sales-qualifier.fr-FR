@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Cet article explique comment connecter Outlook, gérer une connexion CRM, mapper
 
 >[!IMPORTANT]
 >
->La connexion Outlook est établie par représentant. Les paramètres CRM et de conformité décrits plus loin dans cet article s’appliquent à l’ensemble de l’organisation. Pour accéder à ces paramètres à l’échelle de l’organisation, vous devez appartenir aux groupes d’utilisateurs `Sales Qualifier` et `Sales Qualifier Admins`. Les utilisateurs standard peuvent utiliser les données et les filtres CRM configurés, mais ne peuvent pas modifier les paramètres. Voir [Rôles utilisateur et autorisations](user-roles-permissions.md).
+>La connexion Outlook est établie par représentant. Les paramètres CRM et de conformité décrits plus loin dans cet article s’appliquent à l’ensemble de l’organisation. Pour accéder à ces paramètres à l’échelle de l’organisation, vous devez appartenir aux groupes d’utilisateurs `Sales Qualifier` et `Sales Qualifier Admins`. Les utilisateurs standard peuvent utiliser les données et les filtres CRM configurés, mais ne peuvent pas modifier les paramètres.
 
 ## Connecter Outlook
 
@@ -67,7 +67,7 @@ Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]
 | **[!UICONTROL Intégrations]** | **[!UICONTROL Connexions CRM]**, **[!UICONTROL Centre de connaissances]** |
 | **[!UICONTROL Conformité]** | **[!UICONTROL Paramètres de messagerie]** |
 
-Pour le Centre de connaissances, voir [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md).
+Pour le centre de connaissances, consultez le guide [Créer un centre de connaissances](admin-settings.md#knowledge-center).
 
 ## Gestion des connexions CRM
 
@@ -96,7 +96,7 @@ Une carte non configurée affiche **[!UICONTROL Connect]**. Une carte configuré
 
    Saisissez les valeurs **[!UICONTROL ID client (clé du client)]** **[!UICONTROL URL de l’instance]** et **[!UICONTROL secret client]**. Utilisez le `https://{{mydomain}}.my.salesforce.com` de formulaire d’URL d’instance canonique.
 
-   ![Connexion &#x200B;](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Informations d’identification &#x200B;](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB ]
 
@@ -125,8 +125,13 @@ Si Sales Qualifier rejette les informations d’identification, il identifie la 
 
 Le mappage entrant contrôle les champs CRM que Sales Qualifier importe et où ils apparaissent. Les champs sont regroupés en sections, chaque section appartenant à un type d&#39;entité.
 
+![Mappage entrant](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. Sur la carte CRM connectée, sélectionnez **[!UICONTROL Gérer]**.
 1. Dans l’onglet **[!UICONTROL Mappage entrant]**, sélectionnez **[!UICONTROL Ajouter une section]**.
+
+   ![Ajouter une section](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. À l’étape **Sélectionner une section**, choisissez le type d’entité, puis sélectionnez **[!UICONTROL Suivant]** :
 
    | Entité | Où ses champs apparaissent |
@@ -197,5 +202,4 @@ Votre administrateur CRM prépare l’accès à l’API dans Salesforce ou Dynam
 >[!MORELIKETHIS]
 >
 >* [Commencer](getting-started.md)
->* [Rôles utilisateur et autorisations](user-roles-permissions.md)
 >* [Comptes](accounts.md)

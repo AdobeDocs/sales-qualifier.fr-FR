@@ -12,9 +12,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 # Conversation sur l’IA
 
 Le Chat IA répond aux questions en langage naturel en fonction de votre contexte de vente. Utilisez-le pour effectuer des recherches sur un compte, préparer un appel, rédiger des communications et hiérarchiser votre travail sans quitter Sales Qualifier.
+
+![Bouton Conversation IA](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## Ouvrir le chat IA
 
@@ -36,7 +38,7 @@ Sélectionnez le bouton flottant **[!UICONTROL Conversation IA]** pour ouvrir le
 
 AI Chat peut utiliser les sources suivantes :
 
-* Le guide de votre entreprise dans le [Centre de connaissances](knowledge-center.md).
+* Le guide de votre entreprise dans le [Centre de connaissances](admin-settings.md#knowledge-center).
 * Votre CRM connecté, y compris les prospects, contacts, comptes, opportunités et activités.
 * [!DNL Marketo] les données d’activité et d’engagement.
 * Recherches sur les comptes et actualités récentes recueillies par le Account Qualification Agent.
@@ -54,7 +56,7 @@ Utilisez le Module de conversation sur l’IA pour ces tâches :
 
 ## Réponses au sol dans votre playbook
 
-Pour utiliser votre guide [Centre de connaissances](knowledge-center.md), reportez-vous au Centre de connaissances dans votre question. Par exemple :
+Pour utiliser votre guide [Centre de connaissances](admin-settings.md#knowledge-center), reportez-vous au Centre de connaissances dans votre question. Par exemple :
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +78,6 @@ L’utilisation de l’IA Chat par votre entreprise est régie par les termes de
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Centre de connaissances &#x200B;](knowledge-center.md)
+>* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
 >* [Comptes](accounts.md)
 >* [Workflows sortants](outbound-workflows.md)

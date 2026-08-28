@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,14 +21,19 @@ ht-degree: 3%
 
 Dans le volet de navigation de gauche, développez **[!UICONTROL Configuration]** et sélectionnez **[!UICONTROL Paramètres de profil]**. Utilisez ces paramètres pour gérer vos informations personnelles, la connexion par e-mail, le calendrier et la disponibilité du chat.
 
+![Paramètres de profil](assets/profile-email-config.png)
+
 ## Paramètres d’e-mail
 
 Dans l’onglet **[!UICONTROL Paramètres de messagerie]**, configurez vos connexions par e-mail.
 
-* **[!UICONTROL Connexions par e-mail]** : sélectionnez **[!UICONTROL Connecter Outlook]** et suivez le processus de connexion à Microsoft. Voir [Connexion à Outlook](integrations.md#connect-outlook) pour connaître l&#39;accès que vous approuvez et le chemin d&#39;approbation de l&#39;administrateur, le cas échéant.
-* **[!UICONTROL Signature de l&#39;email]** : ajoutez ou mettez à jour la signature utilisée dans les emails générés. Incluez votre lien [réservation de réunion](outbound-workflows.md#meeting-booking) afin que les prospects puissent planifier du temps avec vous.
+* **[!UICONTROL Connexions par e-mail]** — Sélectionnez Microsoft Outlook ou Google et suivez le processus de connexion. Voir [Connexion à Outlook](integrations.md#connect-outlook) pour connaître l&#39;accès que vous approuvez et le chemin d&#39;approbation de l&#39;administrateur, le cas échéant.
+* **[!UICONTROL Signature d&#39;email]** — Ajoutez ou mettez à jour la signature utilisée dans les emails générés. Incluez votre lien [réservation de réunion](outbound-workflows.md#meeting-booking) afin que les prospects puissent planifier du temps avec vous.
+* **[!UICONTROL Lien de réservation de réunion]** - Envoyez une invitation à une réunion dans vos e-mails. Prend l&#39;URL de la réunion.
 
 ### Contexte de rédaction des emails
+
+![Contexte des emails](assets/profile-email-instructions.png)
 
 Utilisez **[!UICONTROL contexte de rédaction des e-mails]** pour définir le ton, la structure et le style des e-mails, afin que ceux-ci soient cohérents.
 
