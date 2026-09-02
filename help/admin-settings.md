@@ -4,15 +4,12 @@ description: Découvrez comment gérer les champs CRM, la synchronisation des ac
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -70,15 +67,15 @@ Les champs mappés apparaissent dans les zones correspondantes de Sales Qualifie
 
 1. Dans **[!UICONTROL Connexions CRM]**, sélectionnez **[!UICONTROL Gérer]** pour le CRM connecté.
 1. Ouvrez **[!UICONTROL Mapping sortant]**.
-1. Activez **[!UICONTROL Synchronisation des activités]** pour synchroniser les activités de sensibilisation de Sales Qualifier avec le CRM et Marketo. Les activités E-mail envoyé, ouvert, sur lesquelles l’utilisateur a cliqué et a répondu incluent le nom du workflow sortant.
+1. Activez **[!UICONTROL Synchronisation des activités]** pour synchroniser les activités de sensibilisation Sales Qualifier avec le CRM et Marketo.
 
-Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation au CRM ou à Marketo.
+Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation avec votre CRM ou votre Marketo.
 
 ## Créer un guide pratique pour le centre de connaissances {#knowledge-center}
 
 Le **[!UICONTROL Centre de connaissances]** donne à Account Qualification Agent (AQA) accès à vos documents de vente. Sales Qualifier utilise ces ressources pour générer des recherches, des informations sur les qualifications et des informations qui reflètent les ventes de votre entreprise. Seuls les administrateurs peuvent créer et gérer le playbook.
 
-![&#x200B; Centre de connaissances &#x200B;](assets/knowledge-center.png){width="800" zoomable="yes"}
+![ Centre de connaissances ](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Paramètres d’administration]** et sélectionnez **[!UICONTROL Centre de connaissances]**
 1. u
@@ -94,7 +91,7 @@ Chaque document chargé affiche son statut de traitement, tel que **[!UICONTROL 
 
 Lorsque le manuel est prêt, les représentants peuvent l’utiliser à deux endroits :
 
-* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [&#x200B; Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [ Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **Chat IA** : Reportez-vous au Centre de connaissances dans votre question. Par exemple, saisissez `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. Voir [Conversation IA](ai-assistant.md).
 
 Dans les deux cas, le contenu généré reflète le message de votre playbook plutôt que la recherche générique.

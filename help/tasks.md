@@ -4,14 +4,11 @@ description: Découvrez comment traiter les tâches de sensibilisation manuelles
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +19,8 @@ ht-degree: 0%
 Utilisez **[!UICONTROL Tâches]** pour exécuter les actions générées par les workflows sortants. Sélectionnez une tâche, effectuez une action, marquez la tâche comme terminée et passez à la tâche suivante sans quitter la page.
 
 Dans le volet de navigation de gauche, accédez à **[!UICONTROL Activités]** > **[!UICONTROL Tâches]**.
+
+![Panneau Tâche](assets/tasks.png)
 
 ## Vues des tâches
 
@@ -43,6 +42,8 @@ Les tâches manuelles sont liées aux étapes de workflow sortant et existent en
 * **[!UICONTROL LinkedInMail]** : créé lorsqu’une cadence atteint une étape LinkedInMail. Le panneau de travail affiche le contenu à copier et à envoyer à partir de LinkedIn. Développez **[!UICONTROL Justification de l’IA]** pour en examiner la justification.
 
 * **[!UICONTROL Email Review]** : créé après que Sales Qualifier a généré les e-mails personnalisés d’un prospect. Sélectionnez **[!UICONTROL Consulter les e-mails]** pour examiner et approuver les brouillons avant que la diffusion ne commence. Voir [Vérifier et affiner les emails générés](outbound-workflows.md#review-and-refine-generated-emails).
+
+![Email Review](assets/tasks-review.png)
 
 ### Le panneau de travail
 
@@ -106,7 +107,7 @@ Sélectionnez une suggestion à examiner dans le panneau de travail :
 
 Deux actions sont disponibles :
 
-* **[!UICONTROL Vérifier les prospects]**—Ouvrez le workflow sortant pour vérifier et inscrire les prospects recommandés. Voir [&#x200B; Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Vérifier les prospects]**—Ouvrez le workflow sortant pour vérifier et inscrire les prospects recommandés. Voir [ Ajouter des prospects et commencer la génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Marquer comme terminé]**—Ignorez la suggestion après l&#39;avoir examinée.
 
 L’onglet **[!UICONTROL Suggestions d’agent]** comprend les filtres de statut **[!UICONTROL Actuel]**, **[!UICONTROL Terminé]** et **[!UICONTROL Annulé]**, un filtre Workflow sortant et un tri par date de création.
