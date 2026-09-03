@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -70,9 +70,9 @@ Les champs mappés apparaissent dans les zones correspondantes de Sales Qualifie
 
 1. Dans **[!UICONTROL Connexions CRM]**, sélectionnez **[!UICONTROL Gérer]** pour le CRM connecté.
 1. Ouvrez **[!UICONTROL Mapping sortant]**.
-1. Activez **[!UICONTROL Synchronisation des activités]** pour synchroniser les activités de sensibilisation de Sales Qualifier avec le CRM et Marketo. Les activités E-mail envoyé, ouvert, sur lesquelles l’utilisateur a cliqué et a répondu incluent le nom du workflow sortant.
+1. Activez **[!UICONTROL Synchronisation des activités]** pour synchroniser les activités de sensibilisation Sales Qualifier avec le CRM et Marketo.
 
-Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation au CRM ou à Marketo.
+Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation avec votre CRM ou votre Marketo.
 
 ## Créer un guide pratique pour le centre de connaissances {#knowledge-center}
 
