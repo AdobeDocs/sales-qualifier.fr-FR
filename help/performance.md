@@ -4,11 +4,10 @@ description: Découvrez comment passer en revue les rapports Performances de l�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 401
 ht-degree: 0%
 
 ---
@@ -29,21 +28,22 @@ Ces commandes s’appliquent à la fois aux vues et à tous les onglets :
 
 ## Performances de l’organisation
 
-**[!UICONTROL Performances de l’organisation]** rend compte de l’activité sortante et des résultats dans l’équipe. Il comporte trois onglets : **[!UICONTROL Aperçu]**, **[!UICONTROL E-mails]** et **[!UICONTROL Tâches]**.
+**[!UICONTROL Performances de l’organisation]** établit des rapports sur l’activité sortante et les résultats dans l’équipe. Il comporte trois onglets : **[!UICONTROL Aperçu]**, **[!UICONTROL E-mails]** et **[!UICONTROL Tâches]**.
 
 ### Onglet Aperçu
 
-L’onglet **[!UICONTROL Aperçu]** résume les résultats sortants en un coup d’œil. Cliquez sur l’une des cases pour afficher le graphique avec ces informations.
+L’onglet **[!UICONTROL Aperçu]** résume les résultats sortants. Cliquez sur l’une des cases pour afficher le graphique avec ces informations.
 
 * **Mosaïques** : pipeline, engagement dans les e-mails et activité manuelle, chacun avec une tendance à la modification par rapport à la période précédente.
 * **Graphique de tendance des performances** : performances sortantes sur la période sélectionnée.
-* Tableau **[!UICONTROL Activité de l&#39;équipe]** : Activité répartie par représentant.
+* Tableau **[!UICONTROL Activité de l’équipe]** : activité classée par représentant.
+* **Total des prospects** : nombre total de prospects, et pas seulement des prospects actifs, afin que le volume sortant total ne soit pas sous-estimé.
 
 ### Onglet E-mails
 
 L’onglet **[!UICONTROL E-mails]** indique le volume et l’efficacité des e-mails :
 
-* **Mosaïques** : les e-mails envoyés, ouverts, sur lesquels l’utilisateur a cliqué et auxquels il a répondu.
+* **Mosaïques** : taux d’ouverture et de clics, affichés par défaut, afin que les performances soient comparables entre les campagnes de différents volumes. Sélectionnez le bouton (bascule) pour afficher le nombre brut d’e-mails envoyés, ouverts, sur lesquels l’utilisateur a cliqué et auxquels il a répondu à la place.
 * **Graphique de tendance hebdomadaire des e-mails** : activité E-mail par semaine.
 * Tableau des performances des e-mails par représentant.
 
@@ -61,9 +61,9 @@ L’onglet **[!UICONTROL Tâches]** rend compte de la portée manuelle :
 
 **[!UICONTROL Performances de la campagne]** génère des rapports sur les résultats sortants par campagne de workflow sortante :
 
-* **Mosaïques d’indicateurs clés de performance** : prospects actifs, taux d’ouverture, taux de clics, taux de réponse et réunions réservées.
+* **Mosaïques d’indicateurs clés de performance** : prospects actifs, taux d’ouverture, taux de clics, taux de réponse et réunions réservées. Le système affiche par défaut le taux d’ouverture et de clic afin que les performances soient comparables entre les campagnes de différents volumes. Sélectionnez plutôt le bouton pour afficher les nombres bruts.
 * **Graphique de tendance des mesures Campaign** : KPI de la campagne sur la période sélectionnée.
-* **[!UICONTROL Campagnes]** tableau : activité E-mail, réunion, appel et Message LinkedIn pour chaque campagne. Développez une ligne de campagne pour afficher les détails au niveau du représentant de cette campagne.
+* **[!UICONTROL Campagnes]** tableau : activité E-mail, réunion, appel et Message LinkedIn pour chaque campagne. Pour afficher les détails au niveau du représentant d’une campagne, développez sa ligne.
 
 Voir [Réservation de réunion](outbound-workflows.md#meeting-booking) pour savoir comment les réservations sont générées.
 

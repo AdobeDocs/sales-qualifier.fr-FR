@@ -4,15 +4,12 @@ description: Découvrez comment gérer les champs CRM, la synchronisation des ac
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -74,11 +71,39 @@ Les champs mappés apparaissent dans les zones correspondantes de Sales Qualifie
 
 Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation avec votre CRM ou votre Marketo.
 
+## Configuration des règles de synchronisation CRM
+
+Sales Qualifier peut automatiquement renvoyer les mises à jour de statut des prospects à Salesforce et Microsoft Dynamics lorsqu’un prospect se déplace dans un workflow sortant, de sorte que les représentants ne mettent plus à jour le CRM manuellement.
+
+### À quoi servent les règles de synchronisation CRM
+
+Une mise à jour peut cibler l’enregistrement **[!UICONTROL Lead]**, **[!UICONTROL Contact]**, **[!UICONTROL Compte]** ou **[!UICONTROL Opportunité]**, et pas seulement le lead.
+
+Les mises à jour se déclenchent à ces moments de workflow sortant :
+
+* Ajouté à un workflow, répondu ou réunion réservée
+* Supprimé par un représentant ou workflow terminé sans réponse
+* Opt-out ou e-mail bounce
+
+Les valeurs de champ peuvent être personnalisées avec des jetons dynamiques afin que la mise à jour du CRM reflète le parcours réel du prospect plutôt qu’une valeur statique. Des jetons sont disponibles pour obtenir des détails tels que le nom du représentant, le nom du workflow sortant, ainsi que la date et l’heure de la réunion.
+
+Seules les valeurs compatibles avec le CRM sont écrites, un champ en échec ne bloque pas les autres, et les problèmes temporaires réessayent automatiquement. Chaque mise à jour est suivie afin que vous puissiez voir ce qui a été synchronisé et ce qui requiert une attention particulière.
+
+### Configurer des règles de synchronisation CRM
+
+Pour configurer des règles de synchronisation CRM :
+
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Paramètres d’administration]** > **[!UICONTROL Connexions CRM]**.
+1. Sélectionnez **[!UICONTROL Gérer]** pour le CRM connecté, puis sélectionnez **[!UICONTROL Règles de synchronisation]**.
+1. Sélectionnez l’entité et les champs CRM cibles, mappez-les aux moments du workflow ci-dessus, puis activez le bouton (bascule).
+
+Une fois les règles de synchronisation CRM configurées, les équipes commerciales bénéficient d’un statut précis, personnalisé et à jour des prospects, contacts, comptes et opportunités à chaque étape, avec moins de décalage des données et de travail manuel.
+
 ## Créer un guide pratique pour le centre de connaissances {#knowledge-center}
 
 Le **[!UICONTROL Centre de connaissances]** donne à Account Qualification Agent (AQA) accès à vos documents de vente. Sales Qualifier utilise ces ressources pour générer des recherches, des informations sur les qualifications et des informations qui reflètent les ventes de votre entreprise. Seuls les administrateurs peuvent créer et gérer le playbook.
 
-![&#x200B; Centre de connaissances &#x200B;](assets/knowledge-center.png){width="800" zoomable="yes"}
+![ Centre de connaissances ](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Paramètres d’administration]** et sélectionnez **[!UICONTROL Centre de connaissances]**
 1. u
@@ -94,7 +119,7 @@ Chaque document chargé affiche son statut de traitement, tel que **[!UICONTROL 
 
 Lorsque le manuel est prêt, les représentants peuvent l’utiliser à deux endroits :
 
-* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [&#x200B; Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [ Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **Chat IA** : Reportez-vous au Centre de connaissances dans votre question. Par exemple, saisissez `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. Voir [Conversation IA](ai-assistant.md).
 
 Dans les deux cas, le contenu généré reflète le message de votre playbook plutôt que la recherche générique.
