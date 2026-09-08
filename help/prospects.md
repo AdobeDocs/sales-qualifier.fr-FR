@@ -4,9 +4,13 @@ description: Découvrez comment créer votre liste de prospects à partir de sou
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
 source-wordcount: 698
@@ -30,7 +34,7 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 
 La liste des prospects regroupe des personnes provenant de plusieurs sources :
 
-* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md).
+* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md).
 * **Prospects importés**—Prospects importés à partir d&#39;un fichier CSV.
 * **Prospects ajoutés manuellement**—Prospects ajoutés individuellement dans Sales Qualifier.
 
@@ -44,7 +48,7 @@ Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
    * Pour un import CSV, chargez un fichier CSV au format `firstname,email`.
      Vous devez indiquer votre prénom et votre adresse e-mail. Le nom est facultatif. Le modèle CSV n’inclut pas la colonne d’ID de prospect CRM, mais vous pouvez ajouter la colonne et ses valeurs au fichier avant l’importation. Si l’importation échoue, consultez le message d’erreur pour les champs ou valeurs à corriger, puis chargez à nouveau le fichier.
-     Mappez tous les champs CSV personnalisés ou supplémentaires, et pas seulement les champs standard. Sales Qualifier enregistre ces valeurs pour chaque prospect et les rend disponibles ultérieurement, y compris pour la [ génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+     Mappez tous les champs CSV personnalisés ou supplémentaires, et pas seulement les champs standard. Sales Qualifier enregistre ces valeurs pour chaque prospect et les rend disponibles ultérieurement, y compris pour la [&#x200B; génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Pour ajouter une personne manuellement, saisissez ses détails dans le formulaire.
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
@@ -60,7 +64,7 @@ Sélectionnez **[!UICONTROL Filtrer]** pour affiner la liste. Vous pouvez filtre
 * Source
 * Dernière mise à jour
 
-Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [ Mappage des champs CRM ](integrations.md#map-crm-fields-inbound-mapping).
+Les administrateurs peuvent également rendre les champs CRM mappés disponibles en tant que filtres. Dans **[!UICONTROL Paramètres d’administration]**, activez **[!UICONTROL Filtrable]** pour chaque champ que les représentants utilisent pour rechercher des prospects. Voir [&#x200B; Mappage des champs CRM &#x200B;](integrations.md#map-crm-fields-inbound-mapping).
 
 Dans **[!UICONTROL Mes contacts d’opportunité]**, vous pouvez également filtrer les contacts par champs à partir des opportunités associées, telles que l’étape, le type et la date de fermeture. Les champs d’opportunité comportent des libellés tels que **[!UICONTROL Phase (Opportunité)]** qui les distinguent des champs de contact. Votre administrateur contrôle les champs d’opportunité disponibles en tant que filtres.
 
