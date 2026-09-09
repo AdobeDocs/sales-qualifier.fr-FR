@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1923
+source-wordcount: 2062
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ L’assistant Workflow sortant se compose de cinq étapes : **[!UICONTROL Object
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Workflows sortants]**.
 1. Dans l’onglet **[!UICONTROL Parcourir]**, sélectionnez **[!UICONTROL + Créer un workflow sortant]** dans le coin supérieur droit.
 
+Les administrateurs peuvent affecter le workflow sortant à un coéquipier plutôt qu’à eux-mêmes. Avant de lancer le workflow, sélectionnez **[!UICONTROL Affecter un utilisateur]** dans la liste déroulante et choisissez votre coéquipier.
+
 ### Étape 1 : définir votre objectif
 
 L’objectif définit le résultat prévu et guide le ciblage, la cadence et la génération d’e-mails.
@@ -87,7 +89,7 @@ Une fois le ciblage configuré, l’IA analyse l’objectif et les critères de 
 
 ![Points de contact](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
-Développez un point de contact d’e-mail pour lire son invite. L’invite guide l’IA lorsqu’elle écrit l’e-mail de chaque prospect, y compris le ton, la durée, le focus et le call to action.
+Pour lire son invite, développez un point de contact d’e-mail. L’invite guide l’IA lorsqu’elle écrit l’e-mail de chaque prospect, y compris le ton, la longueur, le focus et le call to action.
 
 La saisie d’une barre oblique `/` affiche la liste des jetons définis que vous pouvez utiliser pour personnaliser l’e-mail.
 
@@ -127,7 +129,9 @@ L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow 
 1. Sous **[!UICONTROL Autorisations]**, conservez **[!UICONTROL Privé]** (valeur par défaut) ou sélectionnez **[!UICONTROL Partagé avec tout le monde]**. Pour plus d’informations, voir [Partager un workflow sortant](#share-an-outbound-workflow).
 1. Sélectionnez **[!UICONTROL Enregistrer et ajouter des prospects]**.
 
-Le pied de page d’opt-out est configuré globalement par un administrateur et s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
+Pour rétablir les valeurs par défaut de la fenêtre d’envoi, du fuseau horaire, des jours, des règles de suivi et d’absence du bureau, de la visibilité et de la cadence des suggestions, activez **[!UICONTROL Réinitialiser aux paramètres par défaut]**. Le nom du workflow sortant reste inchangé.
+
+Un administrateur configure globalement le pied de page d’opt-out, qui s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
 
 ### Étape 5 : ajouter des prospects et commencer la génération d’e-mails
 
@@ -144,6 +148,10 @@ L’enregistrement ouvre la vue de sélection des prospects avec les filtres de 
 L’IA génère un e-mail personnalisé pour chaque prospect et point de contact d’e-mail sélectionné. Les points de contact Phone et LinkedInMail restent des étapes planifiées. Pour continuer à travailler pendant la génération, sélectionnez **[!UICONTROL Notifier lorsque prêt]**.
 
 Pour chaque prospect, l’IA associe l’invite de point de contact aux données de personne et de compte, à l’historique d’engagement et aux actualités récentes afin de produire une ligne d’objet et un corps.
+
+Les e-mails générés utilisent toutes les données supplémentaires enregistrées sur un prospect, y compris les champs personnalisés [importés avec le prospect](prospects.md#build-your-prospect-list), afin que les brouillons soient plus pertinents. Il n’existe pas de liste fixe de champs pris en charge et les champs nouveaux ou personnalisés fonctionnent sans configuration supplémentaire. L’IA utilise ces données lorsqu’elles sont pertinentes ; si un prospect ne dispose pas de données supplémentaires, la génération d’e-mails fonctionne comme auparavant.
+
+Les e-mails peuvent également être générés dans la langue du prospect, avec des salutations correctes, des expressions naturelles et un ton professionnel approprié. Les langues prises en charge sont le français, l’allemand, l’espagnol, etc.
 
 ## Consulter et affiner les e-mails générés
 
@@ -192,7 +200,7 @@ La validation active le rythme d’un prospect. Le système n’envoie pas d’e
 1. Dans la liste de gauche des prospects, sélectionnez les prospects dont vous avez vérifié les e-mails et qui sont prêts à envoyer.
 1. Sélectionnez **[!UICONTROL Approuver et inscrire les prospects]** dans le coin inférieur droit.
 
-Les e-mails approuvés sont envoyés en fonction des jours sélectionnés du workflow sortant, de la fenêtre d’envoi, de l’option des heures actives et du paramètre de fuseau horaire. Un point de contact avec un retard nul envoie sans attente ; chaque autre point de contact suit son retard configuré. Les prospects non approuvés sont toujours dans l’état **[!UICONTROL Prêt pour la révision]**.
+Les e-mails approuvés sont envoyés en fonction des jours sélectionnés du workflow sortant, de la fenêtre d’envoi, de l’option des heures actives et du paramètre de fuseau horaire. Un point de contact à retard nul envoie immédiatement ; un point de contact sur deux suit son retard configuré. Les prospects non approuvés sont toujours dans l’état **[!UICONTROL Prêt pour la révision]**.
 
 ## Partage d’un workflow sortant
 
@@ -202,7 +210,7 @@ Chaque workflow sortant comporte un paramètre **[!UICONTROL Autorisations]**. L
 >
 >Le partage est permanent. Une fois qu’un workflow sortant est défini sur **[!UICONTROL Partagé avec tout le monde]**, il ne peut pas être redéfini sur **[!UICONTROL Privé]**.
 
-Sur un workflow sortant partagé, les coéquipiers peuvent inscrire leurs propres prospects. Chaque personne ne peut gérer ou suspendre que les prospects auxquels elle est inscrite, y compris lors de l’utilisation d’actions en masse. Le propriétaire du workflow sortant peut modifier seul les paramètres au niveau du plan, y compris la planification, le fuseau horaire, la cadence et d’autres paramètres. Ces paramètres sont en lecture seule pour les coéquipiers.
+Sur un workflow sortant partagé, les coéquipiers peuvent inscrire leurs propres prospects. Chaque personne ne peut gérer ou suspendre que les prospects auxquels elle est inscrite, y compris lors de l’utilisation d’actions en masse. Le propriétaire du workflow sortant peut seul modifier les paramètres au niveau du plan, notamment la planification, le fuseau horaire et le rythme. Ces paramètres sont en lecture seule pour les coéquipiers.
 
 Utilisez ces filtres pour que les workflows sortants partagés et les résultats restent ciblés :
 

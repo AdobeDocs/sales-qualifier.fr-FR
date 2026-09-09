@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Les utilisateurs doivent appartenir au groupe d’utilisateurs `Sales Qualifier`
 
 Ces étapes sont effectuées dans le Adobe Admin Console.
 
-1. Dans le sélecteur d’applications à neuf points, sélectionnez **&#x200B;**.
+1. Dans le sélecteur d’applications, sélectionnez **&#x200B;**.
 1. Sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** > **[!UICONTROL Nouveau groupe d’utilisateurs]**.
 1. Saisissez `Sales Qualifier` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Profils de produit attribués]** et sélectionnez **[!UICONTROL Attribuer le profil]**.
@@ -72,7 +72,7 @@ Vous pouvez également créer un groupe de `Sales Qualifier BDR managers` facult
 
 ## Connexion à votre CRM
 
-Sales Qualifier se connecte à Salesforce ou à Microsoft Dynamics 365 pour offrir aux rapports sur l’ensemble des appareils une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Contactez votre administrateur CRM pour préparer les informations d’identification avant de connecter Sales Qualifier. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
+Sales Qualifier se connecte à Salesforce ou à Microsoft Dynamics 365 pour offrir aux rapports sur l’ensemble des appareils une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Pour préparer les informations d’identification avant de connecter Sales Qualifier, contactez votre administrateur CRM. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Un administrateur système Salesforce crée une application cliente externe (ég
 >* Modifier toutes les données
 >* Gérer les applications connectées
 >
->Sans _Gérer les applications connectées_, l’administrateur ne peut pas afficher l’ID client et le secret client.
+>L’administrateur a besoin de l’option _Gérer les applications connectées_ pour afficher l’identifiant client et le secret client.
 
 1. Dans Salesforce, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL App Manager]** et sélectionnez **[!UICONTROL Nouvelle application connectée]** ou **[!UICONTROL Nouvelle application cliente externe]**.
 1. Saisissez un nom d’application et une adresse e-mail de contact administratif.
@@ -118,7 +118,7 @@ Un administrateur système Salesforce crée une application cliente externe (ég
    * URL de rappel
    * URL de l’instance Salesforce
 
-Les étapes peuvent être légèrement différentes de celles décrites ici. Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://help.salesforce.com/s/).
+Les étapes sont légèrement différentes de celles décrites ici. Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://help.salesforce.com/s/?language=en_US).
 
 ### Recherche de l’URL de votre instance Salesforce
 
@@ -142,7 +142,7 @@ Un administrateur Microsoft Dynamics 365 ou Azure enregistre une application et 
 1. Sélectionnez l’application Microsoft Entra enregistrée.
 1. Attribuez un rôle de sécurité qui accorde un accès en lecture aux prospects, contacts, comptes, opportunités et activités.
 
-   Un rôle de sécurité est requis. Sans celui-ci, l’application ne peut pas accéder aux données Dynamics.
+   Un rôle de sécurité est requis. Un rôle de sécurité est requis pour que l&#39;application puisse accéder aux données Dynamics.
 
 1. Collectez l’ID client, le secret client, l’ID client et l’URL de l’instance Dynamics. Utilisez l’`https://{{mydomain}}.crm.dynamics.com` de formulaire d’URL canonique.
 

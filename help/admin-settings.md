@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -73,6 +73,34 @@ Les champs mappés apparaissent dans les zones correspondantes de Sales Qualifie
 1. Activez **[!UICONTROL Synchronisation des activités]** pour synchroniser les activités de sensibilisation Sales Qualifier avec le CRM et Marketo.
 
 Lorsque la synchronisation des activités est désactivée, Sales Qualifier continue à utiliser les données CRM entrantes, mais ne synchronise pas les activités de sensibilisation avec votre CRM ou votre Marketo.
+
+## Configuration des règles de synchronisation CRM
+
+Sales Qualifier peut automatiquement renvoyer les mises à jour de statut des prospects à Salesforce et Microsoft Dynamics lorsqu’un prospect se déplace dans un workflow sortant, de sorte que les représentants ne mettent plus à jour le CRM manuellement.
+
+### À quoi servent les règles de synchronisation CRM
+
+Une mise à jour peut cibler l’enregistrement **[!UICONTROL Lead]**, **[!UICONTROL Contact]**, **[!UICONTROL Compte]** ou **[!UICONTROL Opportunité]**, et pas seulement le lead.
+
+Les mises à jour se déclenchent à ces moments de workflow sortant :
+
+* Ajouté à un workflow, répondu ou réunion réservée
+* Supprimé par un représentant ou workflow terminé sans réponse
+* Opt-out ou e-mail bounce
+
+Les valeurs de champ peuvent être personnalisées avec des jetons dynamiques afin que la mise à jour du CRM reflète le parcours réel du prospect plutôt qu’une valeur statique. Des jetons sont disponibles pour obtenir des détails tels que le nom du représentant, le nom du workflow sortant, ainsi que la date et l’heure de la réunion.
+
+Seules les valeurs compatibles avec le CRM sont écrites, un champ en échec ne bloque pas les autres, et les problèmes temporaires réessayent automatiquement. Chaque mise à jour est suivie afin que vous puissiez voir ce qui a été synchronisé et ce qui requiert une attention particulière.
+
+### Configurer des règles de synchronisation CRM
+
+Pour configurer des règles de synchronisation CRM :
+
+1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Paramètres d’administration]** > **[!UICONTROL Connexions CRM]**.
+1. Sélectionnez **[!UICONTROL Gérer]** pour le CRM connecté, puis sélectionnez **[!UICONTROL Règles de synchronisation]**.
+1. Sélectionnez l’entité et les champs CRM cibles, mappez-les aux moments du workflow ci-dessus, puis activez le bouton (bascule).
+
+Une fois les règles de synchronisation CRM configurées, les équipes commerciales bénéficient d’un statut précis, personnalisé et à jour des prospects, contacts, comptes et opportunités à chaque étape, avec moins de décalage des données et de travail manuel.
 
 ## Créer un guide pratique pour le centre de connaissances {#knowledge-center}
 

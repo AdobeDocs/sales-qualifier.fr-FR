@@ -3,14 +3,27 @@ title: Notes de mise à jour de Sales Qualifier
 description: Découvrez les nouveautés du qualificateur de vente.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '307'
 ht-degree: 12%
 
 ---
 
 # Notes de mise à jour de Sales Qualifier
+
+## 09-08-2026
+
+Cette version comprend les éléments suivants :
+
+* Définissez votre propre style de dessin d’e-mail une fois dans les paramètres de profil, et chaque e-mail généré le suit. [En savoir plus](profile-settings.md#email-drafting-context).
+* Générez une préparation de réunion personnalisée ou basée sur des objectifs à partir de la page d&#39;un prospect, dans un nouvel onglet de recherche de réunion. [En savoir plus](prospects.md#generate-meeting-prep).
+* Les administrateurs peuvent affecter un workflow sortant à un coéquipier et réinitialiser les paramètres de workflow sur leurs valeurs par défaut. [En savoir plus](outbound-workflows.md#create-an-outbound-workflow).
+* Mappez des champs personnalisés lors de l’importation de prospects à partir d’un fichier CSV et utilisez ces valeurs dans les e-mails générés. [En savoir plus](prospects.md#build-your-prospect-list).
+* Les e-mails générés utilisent toutes les données supplémentaires du prospect que vous importez et peuvent être écrits en mode natif dans sa langue. [En savoir plus](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* Performances sortantes affiche le taux d’ouverture et le taux de clics par défaut, avec un bouton (bascule) pour les nombres bruts et le nombre total de prospects au niveau de l’organisation. [En savoir plus](performance.md).
+* Les règles de synchronisation CRM mettent automatiquement à jour le statut du CRM lorsqu’un prospect se déplace dans un workflow sortant. [En savoir plus](admin-settings.md#configure-crm-sync-rules).
+* Posez des questions sur le Chat IA sur vos données Sales Qualifier, CRM, [!DNL Marketo] et [!DNL Adobe Journey Optimizer B2B Edition]. [En savoir plus](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 

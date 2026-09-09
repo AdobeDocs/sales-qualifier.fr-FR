@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,7 @@ Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
    * Pour un import CSV, chargez un fichier CSV au format `firstname,email`.
      Vous devez indiquer votre prénom et votre adresse e-mail. Le nom est facultatif. Le modèle CSV n’inclut pas la colonne d’ID de prospect CRM, mais vous pouvez ajouter la colonne et ses valeurs au fichier avant l’importation. Si l’importation échoue, consultez le message d’erreur pour les champs ou valeurs à corriger, puis chargez à nouveau le fichier.
+     Mappez tous les champs CSV personnalisés ou supplémentaires, et pas seulement les champs standard. Sales Qualifier enregistre ces valeurs pour chaque prospect et les rend disponibles ultérieurement, y compris pour la [&#x200B; génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Pour ajouter une personne manuellement, saisissez ses détails dans le formulaire.
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
@@ -88,6 +89,13 @@ Sélectionnez un prospect pour ouvrir son profil. Examinez les signaux qui compt
 * **Liste des activités**—Liste chronologique des activités et des comportements récents.
 * **Vue Chronologie** : chronologie visuelle de l’engagement sur plusieurs canaux.
 * **Contenu affiché** : pages Web et ressources consultées par le prospect. Sélectionnez un élément pour l’ouvrir.
+
+### Générer la préparation de la réunion
+
+Outre le résumé de la personne IA permanente, vous pouvez générer une préparation de réunion adaptée à un appel à venir spécifique à partir de l’onglet **[!UICONTROL Recherche de réunion]** en regard de **[!UICONTROL Recherche de compte]**.
+
+* **Basé sur un objectif** : si le prospect est inscrit à un workflow sortant en cours d’exécution, sélectionnez-le. La préparation correspond à l’objectif de ce workflow sortant, tel que la réservation d’une réunion, un argumentaire de produit, une invitation à un événement ou le réengagement du prospect.
+* **Invite personnalisée**—Saisissez ce pour quoi vous souhaitez vous préparer, par exemple `Focus on renewal risk` ou `Prepare for a technical deep dive with their IT lead`. La préparation correspond à votre invite. L’option d’invite personnalisée est disponible lorsque le prospect ne se trouve pas dans un workflow sortant en cours d’exécution.
 
 >[!MORELIKETHIS]
 >
