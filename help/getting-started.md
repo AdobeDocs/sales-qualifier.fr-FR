@@ -37,7 +37,7 @@ Une fois qu’Adobe a configuré le qualificateur Marketo pour votre organisatio
 
 Dans Adobe Admin Console, les groupes d’utilisateurs sont utilisés pour contrôler l’accès au qualificateur Marketo. Les deux groupes doivent être créés avant que les utilisateurs puissent se connecter.
 
-Consultez la [documentation de &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) pour plus d’informations sur la configuration des groupes.
+Consultez la [documentation de &#x200B;](https://helpx.adobe.com/fr/business/enterprise/users/users-and-groups/user-groups.html) pour plus d’informations sur la configuration des groupes.
 
 >[!PREREQUISITES]
 >
