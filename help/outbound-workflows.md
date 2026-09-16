@@ -78,7 +78,7 @@ Indiquez un résultat spécifique dans l’objectif. Par exemple, saisissez `Boo
 
 Les filtres de ciblage définissent les prospects éligibles. Lorsque vous ajoutez des prospects ultérieurement, seuls ceux qui correspondent à ces filtres apparaissent dans la liste de sélection.
 
-![ Filtres de ciblage ](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+![&#x200B; Filtres de ciblage &#x200B;](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
 
 1. Sélectionnez la flèche vers le bas pour ouvrir la liste **[!UICONTROL Ajouter un filtre]**, puis sélectionnez un filtre.
 
@@ -121,7 +121,7 @@ Affinez les invites de point de contact avant de générer les e-mails de prospe
 
 L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow sortant.
 
-![ Panneau Paramètres ](assets/create-workflow-settings.png){width="800" zoomable="yes"}
+![&#x200B; Panneau Paramètres &#x200B;](assets/create-workflow-settings.png){width="800" zoomable="yes"}
 
 1. Vérifiez le **[!UICONTROL nom du workflow sortant]** et modifiez-le si nécessaire.
 1. Dans **[!UICONTROL Nombre maximal de prospects par workflow sortant]**, confirmez le nombre maximal de prospects que le workflow sortant peut gérer en même temps.
@@ -135,7 +135,7 @@ L’étape **[!UICONTROL Paramètres]** contrôle le fonctionnement du workflow 
 
 Pour rétablir les valeurs par défaut de la fenêtre d’envoi, du fuseau horaire, des jours, des règles de suivi et d’absence du bureau, de la visibilité et de la cadence des suggestions, activez **[!UICONTROL Réinitialiser aux paramètres par défaut]**. Le nom du workflow sortant reste inchangé.
 
-Un administrateur configure globalement le pied de page d’opt-out, qui s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [ Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
+Un administrateur configure globalement le pied de page d’opt-out, qui s’applique aux e-mails sortants indépendamment des paramètres du workflow sortant. Voir [&#x200B; Configuration du processus d’opt-out global des e-mails](integrations.md#configure-global-email-opt-out).
 
 ### Étape 5 : ajouter des prospects et commencer la génération d’e-mails
 
@@ -226,7 +226,7 @@ Utilisez ces filtres pour que les workflows sortants partagés et les résultats
 Lorsqu’un prospect répond avec un message d’absence du bureau, le workflow sortant le gère automatiquement.
 
 * **Reprise automatique** : activé par défaut. Si la réponse d’absence du bureau comprend une date de retour, le workflow sortant reprend le rythme à cette date. Si aucune date de retour n’est indiquée, le workflow sortant reprend après une mémoire tampon de reprise que votre équipe peut configurer.
-* **Options manuelles** : un rep peut toujours sélectionner **[!UICONTROL Reprendre maintenant]** ou planifier une date de reprise spécifique. Voir [ Gestion des workflows sortants existants ](#manage-existing-outbound-workflows).
+* **Options manuelles** : un rep peut toujours sélectionner **[!UICONTROL Reprendre maintenant]** ou planifier une date de reprise spécifique. Voir [&#x200B; Gestion des workflows sortants existants &#x200B;](#manage-existing-outbound-workflows).
 
 ## Gestion des workflows sortants existants
 
@@ -257,5 +257,5 @@ Suivez les résultats de la réservation sur la page [Performances sortantes](pe
 >[!MORELIKETHIS]
 >
 >* [Tâches](tasks.md)
->* [ Centre de connaissances ](admin-settings.md#knowledge-center)
+>* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
 >* [Performance sortante](performance.md)

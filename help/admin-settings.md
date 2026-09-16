@@ -108,7 +108,7 @@ Une fois les règles de synchronisation CRM configurées, les équipes commercia
 
 Le **[!UICONTROL Centre de connaissances]** donne à Account Qualification Agent (AQA) accès à vos documents de vente. Marketo Qualifier utilise ces ressources pour générer des recherches, des informations sur les qualifications et des informations qui reflètent les ventes de votre entreprise. Seuls les administrateurs peuvent créer et gérer le playbook.
 
-![ Centre de connaissances ](assets/knowledge-center.png){width="800" zoomable="yes"}
+![&#x200B; Centre de connaissances &#x200B;](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]**, sélectionnez **[!UICONTROL Paramètres d’administration]** et sélectionnez **[!UICONTROL Centre de connaissances]**
 1. u
@@ -124,7 +124,7 @@ Chaque document chargé affiche son statut de traitement, tel que **[!UICONTROL 
 
 Lorsque le manuel est prêt, les représentants peuvent l’utiliser à deux endroits :
 
-* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [ Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Invites de courrier électronique sortant** : dans une invite de point de contact, nommez le document et décrivez le contexte à utiliser. Par exemple, saisissez `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Voir [&#x200B; Générer et réviser des points de contact](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **Chat IA** : Reportez-vous au Centre de connaissances dans votre question. Par exemple, saisissez `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. Voir [Conversation IA](ai-assistant.md).
 
 Dans les deux cas, le contenu généré reflète le message de votre playbook plutôt que la recherche générique.

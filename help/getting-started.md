@@ -31,19 +31,19 @@ ht-degree: 0%
 
 Une fois qu’Adobe a configuré le qualificateur Marketo pour votre organisation, un administrateur système [!DNL Marketo] doit créer les groupes d’utilisateurs requis et connecter Salesforce ou Microsoft Dynamics 365.
 
-![Page d&#39;accueil du qualificateur ](assets/homepage.png){width="800" zoomable="yes"}
+![Page d&#39;accueil du qualificateur &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
 
 ## Configurer des groupes d’utilisateurs
 
 Dans Adobe Admin Console, les groupes d’utilisateurs sont utilisés pour contrôler l’accès au qualificateur Marketo. Les deux groupes doivent être créés avant que les utilisateurs puissent se connecter.
 
-Consultez la [documentation de ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) pour plus d’informations sur la configuration des groupes.
+Consultez la [documentation de &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) pour plus d’informations sur la configuration des groupes.
 
 >[!PREREQUISITES]
 >
 >L’administrateur ou l’administratrice qui crée les groupes doit répondre à ces deux exigences :
 >
->* Être un administrateur d’organisation ayant accès à **** à partir du sélecteur d’applications Adobe.
+>* Être un administrateur d’organisation ayant accès à **&#x200B;**&#x200B;à partir du sélecteur d’applications Adobe.
 >* être affecté au produit Adobe Experience Platform ou être administrateur système. Dans le cas contraire, Adobe Experience Platform n’apparaît pas dans la liste des produits.
 
 ### Utilisateurs du qualificateur Marketo
@@ -52,11 +52,11 @@ Les utilisateurs doivent appartenir au groupe d’utilisateurs `Marketo Qualifie
 
 Ces étapes sont effectuées dans le Adobe Admin Console.
 
-1. Dans le sélecteur d’applications, sélectionnez ****.
+1. Dans le sélecteur d’applications, sélectionnez **&#x200B;**.
 1. Sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** > **[!UICONTROL Nouveau groupe d’utilisateurs]**.
 1. Saisissez `Marketo Qualifier` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Profils de produit attribués]** et sélectionnez **[!UICONTROL Attribuer le profil]**.
-1. Sélectionnez ****.
+1. Sélectionnez **&#x200B;**.
 1. Sélectionnez le profil de produit **[!UICONTROL Accès à tous les produits de production par défaut]**, sélectionnez **[!UICONTROL Appliquer]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Utilisateurs]** et sélectionnez **[!UICONTROL Ajouter des utilisateurs]** pour ajouter tous ceux qui doivent accéder au qualificateur Marketo.
 
@@ -77,7 +77,7 @@ Vous pouvez également créer un groupe de `Marketo Qualifier BDR managers` facu
 
 ## Connexion à votre CRM
 
-Marketo Qualifier se connecte à Salesforce ou Microsoft Dynamics 365 pour offrir aux fichiers BDR une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Pour préparer les informations d’identification avant de connecter Marketo Qualifier, contactez votre administrateur CRM. Voir [ Intégrations ](integrations.md) pour plus d’informations sur l’intégration.
+Marketo Qualifier se connecte à Salesforce ou Microsoft Dynamics 365 pour offrir aux fichiers BDR une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Pour préparer les informations d’identification avant de connecter Marketo Qualifier, contactez votre administrateur CRM. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
 
 >[!PREREQUISITES]
 >
@@ -123,7 +123,7 @@ Un administrateur système Salesforce crée une application cliente externe (ég
    * URL de rappel
    * URL de l’instance Salesforce
 
-Les étapes sont légèrement différentes de celles décrites ici. Pour plus d&#39;informations, consultez la documentation de [](https://help.salesforce.com/s/?language=en_US).
+Les étapes sont légèrement différentes de celles décrites ici. Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://help.salesforce.com/s/?language=en_US).
 
 ### Recherche de l’URL de votre instance Salesforce
 
@@ -161,7 +161,7 @@ Un administrateur Microsoft Dynamics 365 ou Azure enregistre une application et 
 
    La page affiche des cartes pour Salesforce et Microsoft Dynamics. Une connexion inactive affiche **[!UICONTROL Connect]**. Une connexion configurée affiche **[!UICONTROL Connecté]** et **[!UICONTROL Gérer]**.
 
-   ![Informations d’identification ](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
+   ![Informations d’identification &#x200B;](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. Sélectionnez **[!UICONTROL Connexion]** pour le CRM que vous utilisez.
 1. Saisissez les informations d’identification et l’URL de l’instance à partir de votre administrateur CRM.

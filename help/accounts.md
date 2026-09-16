@@ -28,7 +28,7 @@ La vue de compte combine les recherches générées par l’IA, les actualités 
 
 Ouvrez un compte à partir du profil d’un prospect qui lui est associé.
 
-1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [ Prospects ](prospects.md).
+1. Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche, puis ouvrez un prospect. Voir [&#x200B; Prospects &#x200B;](prospects.md).
 1. Sur la page des détails du prospect, sélectionnez l’onglet **[!UICONTROL Compte]**.
 
 ![Page de détails du prospect avec onglets Personne et Compte](./assets/account-home.png){width="800" zoomable="yes"}
@@ -67,7 +67,7 @@ Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vu
 | **[!UICONTROL Membres principaux]** | Les contacts les plus engagés du compte, classés par engagement. Chaque contact affiche son intitulé de poste, son adresse e-mail, son score d’engagement et son indicateur d’urgence. |
 | **[!UICONTROL Données d’intention]** | Signaux d’intention d’achat pour le compte, tels que les produits et les sujets sur lesquels le compte fait des recherches. |
 | **[!UICONTROL Membres de l’équipe de compte]** | Personnes affectées au compte, avec leur adresse e-mail, fonction, territoire et groupe de produits. |
-| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [ Intégrations ](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL champs CRM]** | Champs de compte importés de votre CRM, tels que configurés dans le mapping entrant. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md#map-crm-fields-inbound-mapping). |
 
 Dans la vue **[!UICONTROL Membres principaux]**, effectuez l’une des actions suivantes pour un contact :
 

@@ -75,7 +75,7 @@ Pour le centre de connaissances, consultez le guide [Créer un centre de connais
 
 ## Gestion des connexions CRM
 
-Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **** et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
+Sélectionnez **[!UICONTROL Connexions CRM]**. La page contient des cartes pour **&#x200B;**&#x200B;et **[!UICONTROL Microsoft]** (Microsoft Dynamics 365). Chaque carte présente l’un des statuts suivants :
 
 | Statut | Signification |
 | --- | --- |
@@ -100,7 +100,7 @@ Une carte non configurée affiche **[!UICONTROL Connect]**. Une carte configuré
 
    Saisissez les valeurs **[!UICONTROL ID client (clé du client)]** **[!UICONTROL URL de l’instance]** et **[!UICONTROL secret client]**. Utilisez le `https://{{mydomain}}.my.salesforce.com` de formulaire d’URL d’instance canonique.
 
-   ![Informations d’identification ](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
+   ![Informations d’identification &#x200B;](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB ]
 
@@ -173,7 +173,7 @@ Lorsque la synchronisation des activités est désactivée, le qualificateur de 
 
 ## Configurer les points forts marketing {#turn-on-marketo-engagement-filtering}
 
-Les points forts marketing permettent aux représentants de trouver et de classer les prospects par engagement direct [!DNL Marketo], tel que les ouvertures d’e-mail et les clics. Voir [ Filtrer par points forts marketing ](prospects.md#filter-by-marketing-highlights).
+Les points forts marketing permettent aux représentants de trouver et de classer les prospects par engagement direct [!DNL Marketo], tel que les ouvertures d’e-mail et les clics. Voir [&#x200B; Filtrer par points forts marketing &#x200B;](prospects.md#filter-by-marketing-highlights).
 
 Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] au qualificateur Marketo pour l’organisation et le sandbox appropriés. La configuration couvre la création d’informations d’identification d’API dans Adobe Developer Console, la configuration d’un webhook dans [!DNL Marketo] et l’ajout de ce webhook à un déclencheur Smart Campaign. Voir [Configurer les points forts marketing](marketing-highlights-setup.md) pour obtenir des instructions complètes.
 

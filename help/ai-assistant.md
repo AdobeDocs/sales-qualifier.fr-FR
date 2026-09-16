@@ -133,6 +133,6 @@ L’utilisation de l’IA Chat par votre entreprise est régie par les termes de
 
 >[!MORELIKETHIS]
 >
->* [ Centre de connaissances ](admin-settings.md#knowledge-center)
+>* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
 >* [Comptes](accounts.md)
 >* [Workflows sortants](outbound-workflows.md)
