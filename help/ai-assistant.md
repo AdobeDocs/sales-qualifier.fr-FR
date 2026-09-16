@@ -1,28 +1,30 @@
 ---
 title: Utiliser le chat IA
-description: Découvrez comment utiliser le Module de conversation sur l’IA dans Sales Qualifier pour rechercher des comptes, rédiger des communications et obtenir des réponses en fonction de vos données de gestion de la relation client, d’engagement et de centre de connaissances.
+description: Découvrez comment utiliser le Module de conversation sur l’IA dans Adobe Marketo Qualifier pour effectuer des recherches sur les comptes, rédiger des communications et obtenir des réponses en fonction de vos données de gestion de la relation client, d’engagement et de centre de connaissances.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Artificial intelligence
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '727'
 ht-degree: 1%
-
 ---
-
 
 # Conversation sur l’IA
 
-Le Chat IA répond aux questions en langage naturel en fonction de votre contexte de vente. Utilisez-le pour effectuer des recherches sur un compte, préparer un appel, rédiger des communications et hiérarchiser votre travail sans quitter Sales Qualifier.
+Le Chat IA répond aux questions en langage naturel en fonction de votre contexte de vente. Utilisez-le pour effectuer des recherches sur un compte, préparer un appel, rédiger des communications et hiérarchiser votre travail sans quitter Adobe Marketo Qualifier.
 
 ![Bouton Conversation IA](assets/ai-chat.png){width="800" zoomable="yes"}
 
@@ -56,7 +58,7 @@ Utilisez le Module de conversation sur l’IA pour ces types de tâches :
 
 ## Discutez avec Ask AI sur vos données connectées
 
-Le Chat IA peut répondre aux questions sur vos données Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] et de veille économique. Posez une question en langage clair pour rechercher des informations ou extraire le contexte. Le Chat IA lit et génère des rapports sur vos données ; il ne crée, ne modifie et ne lance rien.
+Le chat IA peut répondre aux questions sur vos données de qualificateur Marketo, de gestion de la relation client, de [!DNL Marketo], de [!DNL Adobe Journey Optimizer B2B Edition] et de veille économique. Posez une question en langage clair pour rechercher des informations ou extraire le contexte. Le Chat IA lit et génère des rapports sur vos données ; il ne crée, ne modifie et ne lance rien.
 
 Voici quelques exemples d’invites. Plus vous êtes précis dans votre invite, plus les résultats seront ciblés.
 
@@ -131,6 +133,6 @@ L’utilisation de l’IA Chat par votre entreprise est régie par les termes de
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Centre de connaissances &#x200B;](admin-settings.md#knowledge-center)
+>* [ Centre de connaissances ](admin-settings.md#knowledge-center)
 >* [Comptes](accounts.md)
 >* [Workflows sortants](outbound-workflows.md)

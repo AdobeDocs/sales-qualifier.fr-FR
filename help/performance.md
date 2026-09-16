@@ -1,20 +1,20 @@
 ---
-title: Performances sortantes dans Sales Qualifier
-description: Découvrez comment passer en revue les rapports Performances de l’organisation et Performances de la campagne dans Sales Qualifier pour effectuer le suivi de l’activité sortante et des résultats.
+title: Performances sortantes dans le qualificateur Adobe Marketo
+description: Découvrez comment passer en revue les rapports Performances de l’organisation et Performances de la campagne dans Adobe Marketo Qualifier pour effectuer le suivi de l’activité sortante et des résultats.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Performances sortantes dans Sales Qualifier
+# Performances sortantes dans le qualificateur Adobe Marketo
 
 Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Performances sortantes]** pour effectuer le suivi de l’activité sortante et des résultats au sein de votre équipe. Le tableau de bord comporte deux vues : **[!UICONTROL Performances de l’organisation]** et **[!UICONTROL Performances de la campagne]**.
 
@@ -48,7 +48,7 @@ L’onglet **[!UICONTROL E-mails]** indique le volume et l’efficacité des e-m
 * **Graphique de tendance hebdomadaire des e-mails** : activité E-mail par semaine.
 * Tableau des performances des e-mails par représentant.
 
-Sales Qualifier attribue des statuts distincts aux réponses d&#39;absence du bureau et aux bounces afin que vous puissiez les distinguer de l&#39;engagement des prospects.
+Le qualificateur Marketo attribue des statuts distincts aux réponses d’absence du bureau et aux bounces afin que vous puissiez les distinguer de l’engagement des prospects.
 
 ### Onglet Tâches
 
