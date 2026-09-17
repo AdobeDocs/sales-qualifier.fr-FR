@@ -1,36 +1,41 @@
 ---
-title: Prise en main de Sales Qualifier
-description: Découvrez comment effectuer la configuration d’administrateur unique pour Sales Qualifier, y compris les groupes d’utilisateurs et une connexion CRM, avant que votre équipe ne commence à utiliser l’application.
+title: Prise en main d’Adobe Marketo Qualifier
+description: Découvrez comment effectuer la configuration d’administrateur unique pour Adobe Marketo Qualifier, y compris les groupes d’utilisateurs et une connexion CRM, avant que votre équipe ne commence à utiliser l’application.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Administration
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: '1020'
 ht-degree: 0%
-
 ---
 
+# Prise en main d’Adobe Marketo Qualifier
 
-# Prise en main de Sales Qualifier
+Une fois qu’Adobe a configuré le qualificateur Marketo pour votre organisation, un administrateur système [!DNL Marketo] doit créer les groupes d’utilisateurs requis et connecter Salesforce ou Microsoft Dynamics 365.
 
-Une fois qu’Adobe a configuré Sales Qualifier pour votre organisation, un administrateur système [!DNL Marketo] doit créer les groupes d’utilisateurs requis et connecter Salesforce ou Microsoft Dynamics 365.
-
-![Page d&#39;accueil de &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
+![Page d&#39;accueil du qualificateur &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
 
 ## Configurer des groupes d’utilisateurs
 
-Dans Adobe Admin Console, les groupes d’utilisateurs sont utilisés pour contrôler l’accès à Sales Qualifier. Les deux groupes doivent être créés avant que les utilisateurs puissent se connecter.
+Dans Adobe Admin Console, les groupes d’utilisateurs sont utilisés pour contrôler l’accès au qualificateur Marketo. Les deux groupes doivent être créés avant que les utilisateurs puissent se connecter.
 
 Consultez la [documentation de &#x200B;](https://helpx.adobe.com/fr/business/enterprise/users/users-and-groups/user-groups.html) pour plus d’informations sur la configuration des groupes.
 
@@ -41,42 +46,42 @@ Consultez la [documentation de &#x200B;](https://helpx.adobe.com/fr/business/ent
 >* Être un administrateur d’organisation ayant accès à **&#x200B;**&#x200B;à partir du sélecteur d’applications Adobe.
 >* être affecté au produit Adobe Experience Platform ou être administrateur système. Dans le cas contraire, Adobe Experience Platform n’apparaît pas dans la liste des produits.
 
-### Utilisateurs de Sales Qualifier
+### Utilisateurs du qualificateur Marketo
 
-Les utilisateurs doivent appartenir au groupe d’utilisateurs `Sales Qualifier` pour accéder à l’application.
+Les utilisateurs doivent appartenir au groupe d’utilisateurs `Marketo Qualifier` pour accéder à l’application.
 
 Ces étapes sont effectuées dans le Adobe Admin Console.
 
 1. Dans le sélecteur d’applications, sélectionnez **&#x200B;**.
 1. Sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** > **[!UICONTROL Nouveau groupe d’utilisateurs]**.
-1. Saisissez `Sales Qualifier` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
+1. Saisissez `Marketo Qualifier` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Profils de produit attribués]** et sélectionnez **[!UICONTROL Attribuer le profil]**.
 1. Sélectionnez **&#x200B;**.
 1. Sélectionnez le profil de produit **[!UICONTROL Accès à tous les produits de production par défaut]**, sélectionnez **[!UICONTROL Appliquer]**, puis sélectionnez **[!UICONTROL Enregistrer]**.
-1. Ouvrez **[!UICONTROL Utilisateurs]** et sélectionnez **[!UICONTROL Ajouter des utilisateurs]** pour ajouter tous ceux qui doivent accéder à Sales Qualifier.
+1. Ouvrez **[!UICONTROL Utilisateurs]** et sélectionnez **[!UICONTROL Ajouter des utilisateurs]** pour ajouter tous ceux qui doivent accéder au qualificateur Marketo.
 
-### Administrateurs Sales Qualifier
+### Administrateurs Marketo Qualifier
 
-Les administrateurs qui configurent les connexions CRM, le [Centre de connaissances](admin-settings.md#knowledge-center) et les paramètres de désinscription globale aux e-mails doivent également appartenir au groupe d’utilisateurs `Sales Qualifier Admins`.
+Les administrateurs qui configurent les connexions CRM, le [Centre de connaissances](admin-settings.md#knowledge-center) et les paramètres de désinscription globale aux e-mails doivent également appartenir au groupe d’utilisateurs `Marketo Qualifier Admins`.
 
 1. Dans Adobe Admin Console, sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** > **[!UICONTROL Nouveau groupe d’utilisateurs]**.
-1. Saisissez `Sales Qualifier Admins` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
+1. Saisissez `Marketo Qualifier Admins` pour le nom du groupe et sélectionnez **[!UICONTROL Enregistrer]**.
 1. Ouvrez **[!UICONTROL Utilisateurs]**, sélectionnez **[!UICONTROL Ajouter des utilisateurs]** et ajoutez les administrateurs.
-1. Vérifiez que chaque administrateur est également membre du groupe `Sales Qualifier`.
+1. Vérifiez que chaque administrateur est également membre du groupe `Marketo Qualifier`.
 
 L’appartenance aux deux groupes rend **[!UICONTROL Paramètres d’administration]** visible sous **[!UICONTROL Administration]** dans le volet de navigation de gauche. Les utilisateurs standard utilisent les champs, les filtres et le playbook configurés par l’administration. Le pied de page d’opt-out configuré s’applique automatiquement à leurs e-mails sortants. Les utilisateurs standard ne peuvent pas modifier ces paramètres.
 
 Les noms des groupes d’utilisateurs doivent correspondre exactement comme indiqué dans les étapes précédentes.
 
-Vous pouvez également créer un groupe de `Sales Qualifier BDR managers` facultatif. Les membres de ce groupe peuvent accéder aux rapports de performances des e-mails.
+Vous pouvez également créer un groupe de `Marketo Qualifier BDR managers` facultatif. Les membres de ce groupe peuvent accéder aux rapports de performances des e-mails.
 
 ## Connexion à votre CRM
 
-Sales Qualifier se connecte à Salesforce ou à Microsoft Dynamics 365 pour offrir aux rapports sur l’ensemble des appareils une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Pour préparer les informations d’identification avant de connecter Sales Qualifier, contactez votre administrateur CRM. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
+Marketo Qualifier se connecte à Salesforce ou Microsoft Dynamics 365 pour offrir aux fichiers BDR une vue unifiée des utilisateurs, des prospects, des contacts, des comptes, des opportunités, des mappages des propriétaires et des activités associées. La connexion initiale nécessite un accès en lecture seule à ces données CRM. Pour préparer les informations d’identification avant de connecter Marketo Qualifier, contactez votre administrateur CRM. Voir [&#x200B; Intégrations &#x200B;](integrations.md) pour plus d’informations sur l’intégration.
 
 >[!PREREQUISITES]
 >
->Pour accéder à l&#39;interface d&#39;administration du CRM, vous devez appartenir aux groupes `Sales Qualifier Admins` Adobe Admin Console et `Sales Qualifier` .
+>Pour accéder à l&#39;interface d&#39;administration du CRM, vous devez appartenir aux groupes `Marketo Qualifier Admins` Adobe Admin Console et `Marketo Qualifier` .
 
 >[!BEGINTABS]
 
@@ -111,7 +116,7 @@ Un administrateur système Salesforce crée une application cliente externe (ég
 1. Vérifiez que l’utilisateur exécutant dispose d’un accès en **lecture** à `Leads`, `Accounts`, `Contacts`, `Tasks`, `Events`, `Opportunity`, `OpportunityContactRoles` et `OpportunityLineItems`. Vérifiez également que l’option **Accéder aux activités** est activée.
 1. Enregistrez l’application.
 1. Dans **[!UICONTROL App Manager]**, ouvrez l’application et sélectionnez **[!UICONTROL Afficher]** > **[!UICONTROL Détails du client]**.
-1. Copiez les valeurs suivantes pour la connexion Sales Qualifier :
+1. Copiez les valeurs suivantes pour la connexion Qualificateur Marketo :
 
    * Consumer Key (ID client)
    * Secret du client
@@ -123,7 +128,7 @@ Les étapes sont légèrement différentes de celles décrites ici. Pour plus d&
 ### Recherche de l’URL de votre instance Salesforce
 
 1. Connectez-vous et notez votre organisation _Mon domaine_ sous-domaine dans la barre d’adresse du navigateur (valeur `{{mydomain}}`).
-1. Utilisez le formulaire canonique pour Sales Qualifier : `https://{{mydomain}}.my.salesforce.com`.
+1. Utilisez le formulaire canonique pour le qualificateur Marketo : `https://{{mydomain}}.my.salesforce.com`.
 
 N’utilisez pas d’URL `lightning.force.com` comme URL d’instance.
 
@@ -150,7 +155,7 @@ Un administrateur Microsoft Dynamics 365 ou Azure enregistre une application et 
 
 ### Entrez votre connexion
 
-1. En tant que membre des deux groupes Sales Qualifier requis, connectez-vous à Sales Qualifier et vérifiez que le sandbox ou l’environnement approprié est sélectionné.
+1. En tant que membre des deux groupes de qualificateurs Marketo obligatoires, connectez-vous à Qualificateur Marketo et vérifiez que le sandbox ou l’environnement approprié est sélectionné.
 1. Dans le volet de navigation de gauche, développez **[!UICONTROL Administration]** et sélectionnez **[!UICONTROL Paramètres d’administration]**.
 1. Sélectionnez **[!UICONTROL Connexions CRM]** sous **[!UICONTROL Intégrations]**.
 
@@ -164,7 +169,7 @@ Un administrateur Microsoft Dynamics 365 ou Azure enregistre une application et 
 
 ### Importer les champs du CRM
 
-Après la connexion au CRM, configurez le mapping entrant pour déterminer quels champs du CRM apparaissent dans Sales Qualifier. Sur la carte CRM connectée, sélectionnez **[!UICONTROL Gérer]** pour ouvrir **[!UICONTROL Mapping entrant]**, puis ajoutez une section pour chaque type d’entité dont vous souhaitez importer les champs.
+Après la connexion au CRM, configurez le mappage entrant pour déterminer quels champs CRM apparaissent dans le qualificateur Marketo. Sur la carte CRM connectée, sélectionnez **[!UICONTROL Gérer]** pour ouvrir **[!UICONTROL Mapping entrant]**, puis ajoutez une section pour chaque type d’entité dont vous souhaitez importer les champs.
 
 Consultez la section [Mappage des champs CRM (mappage entrant)](integrations.md#map-crm-fields-inbound-mapping) pour obtenir des instructions complètes, notamment sur la manière de rendre les champs importés disponibles sous forme de filtres.
 

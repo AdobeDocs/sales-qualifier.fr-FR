@@ -1,32 +1,35 @@
 ---
-title: Présentation de Sales Qualifier
-description: Découvrez Sales Qualifier, une application gérée par IA qui automatise la qualification des prospects, la sensibilisation et l’engagement des acheteurs pour les équipes de vente B2B.
+title: Présentation du qualificateur Marketo d’Adobe
+description: Découvrez Adobe Marketo Qualifier, une application pilotée par l’IA qui automatise la qualification des prospects, la sensibilisation et l’engagement des acheteurs pour les équipes commerciales B2B.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '394'
 ht-degree: 21%
-
 ---
 
+# Qualificateur Marketo Adobe
 
-# Qualificateur de vente
-
-Adobe Sales Qualifier est une application optimisée par l’IA qui automatise la qualification des prospects, la sensibilisation et l’engagement cross-canal des acheteurs pour les représentants du développement commercial (BDR). Le Account Qualification Agent analyse vos comptes et prospects, priorise ceux qui sont prêts pour l’étape suivante et rédige des projets de sensibilisation personnalisés en fonction de vos données CRM.
+Adobe Marketo Qualifier est une application optimisée par l’IA qui automatise la qualification des prospects, la sensibilisation et l’engagement cross-canal des acheteurs pour les représentants du développement commercial (BDR). Le Account Qualification Agent analyse vos comptes et prospects, priorise ceux qui sont prêts pour l’étape suivante et rédige des projets de sensibilisation personnalisés en fonction de vos données CRM.
 
 Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder à la Business Intelligence directement dans leur CRM ou Outlook.
 
-## Fonctionnalités de Sales Qualifier
+## Fonctionnalités d’dans le qualificateur Marketo
 
 * **Hiérarchisez les prospects et les comptes** avec des résumés d’activités générés par l’IA et une hiérarchisation basée sur les signaux.
 * **Créer des workflows sortants pilotés par les objectifs** dans lesquels l’IA propose une cadence et rédige des e-mails personnalisés pour chaque prospect.
@@ -44,11 +47,11 @@ Les BDR peuvent utiliser les plug-ins de navigateur et d’e-mail pour accéder 
 :::card
 ![icône](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=fr)
 
-Prise en main
+Commencer
 
 Effectuez la configuration d’administration unique pour les groupes d’utilisateurs et une connexion CRM.
 
-[Prise en main](getting-started.md)
+[Commencer](getting-started.md)
 :::
 
 :::card

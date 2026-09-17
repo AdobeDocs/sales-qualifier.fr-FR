@@ -1,16 +1,14 @@
 ---
-title: Notes de mise à jour de Sales Qualifier
-description: Découvrez les nouveautés du qualificateur de vente.
+title: Notes De Mise À Jour Du Qualificateur Marketo D’Adobe
+description: Découvrez les nouveautés d’Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Notes de mise à jour de Sales Qualifier
+# Notes De Mise À Jour Du Qualificateur Marketo D’Adobe
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ Cette version comprend les éléments suivants :
 * Les e-mails générés utilisent toutes les données supplémentaires du prospect que vous importez et peuvent être écrits en mode natif dans sa langue. [En savoir plus](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Performances sortantes affiche le taux d’ouverture et le taux de clics par défaut, avec un bouton (bascule) pour les nombres bruts et le nombre total de prospects au niveau de l’organisation. [En savoir plus](performance.md).
 * Les règles de synchronisation CRM mettent automatiquement à jour le statut du CRM lorsqu’un prospect se déplace dans un workflow sortant. [En savoir plus](admin-settings.md#configure-crm-sync-rules).
-* Posez des questions sur le Chat IA sur vos données Sales Qualifier, CRM, [!DNL Marketo] et [!DNL Adobe Journey Optimizer B2B Edition]. [En savoir plus](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Posez des questions sur le Chat IA pour vos données de qualificateur de Marketo, de gestion de la relation client, de [!DNL Marketo] et de [!DNL Adobe Journey Optimizer B2B Edition]. [En savoir plus](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] est désormais disponible en tant qu’application autonome. Il prend en charge Marketo et Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] est désormais disponible en tant qu’application autonome. Il prend en charge Marketo et Adobe Journey Optimizer B2B.
 
 Cette version comprend les éléments suivants :
 

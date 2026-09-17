@@ -1,21 +1,22 @@
 ---
 title: Configurer les paramètres de profil
-description: Découvrez comment configurer la connexion par e-mail, la signature et la disponibilité du calendrier dans les paramètres du profil Sales Qualifier.
+description: Découvrez comment configurer la connexion par e-mail, la signature et la disponibilité du calendrier dans les paramètres de profil du qualificateur Marketo Adobe.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '396'
 ht-degree: 3%
-
 ---
-
 
 # Paramètres de profil
 
@@ -65,12 +66,12 @@ Si vous déconnectez votre calendrier :
 
 ## Disponibilité du calendrier
 
-La disponibilité de votre calendrier dans Sales Qualifier repose sur deux entrées :
+La disponibilité de votre calendrier dans Adobe Marketo Qualifier repose sur deux entrées :
 
 * Votre calendrier professionnel connecté, tel qu’Outlook ou Gmail
 * Les règles de disponibilité et de créneau horaire dans **[!UICONTROL configuration du calendrier]**
 
-Sales Qualifier lit le statut de disponibilité, et non les détails de l’événement, à partir du calendrier connecté. Il associe ce statut à vos règles afin de déterminer les créneaux horaires que les prospects peuvent réserver.
+Le qualificateur Marketo lit le statut de disponibilité, et non les détails de l’événement, à partir du calendrier connecté. Il associe ce statut à vos règles afin de déterminer les créneaux horaires que les prospects peuvent réserver.
 
 Vous pouvez configurer les éléments suivants :
 

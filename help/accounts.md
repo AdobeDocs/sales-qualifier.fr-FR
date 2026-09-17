@@ -1,22 +1,24 @@
 ---
-title: Comptes dans Sales Qualifier
-description: Découvrez comment passer en revue les renseignements sur les comptes dans Sales Qualifier, y compris les recherches sur l’IA, les actualités récentes, les opportunités et les contacts les plus engagés, afin de donner la priorité à la sensibilisation.
+title: Comptes dans le qualificateur Adobe Marketo
+description: Découvrez comment passer en revue les renseignements sur les comptes dans Adobe Marketo Qualifier, y compris les recherches sur l’IA, les actualités récentes, les opportunités et les contacts les plus engagés, pour donner la priorité à la sensibilisation.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # Comptes
 
@@ -31,7 +33,7 @@ Ouvrez un compte à partir du profil d’un prospect qui lui est associé.
 
 ![Page de détails du prospect avec onglets Personne et Compte](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier identifie le compte à partir de l’enregistrement CRM du prospect. La même vue de compte est disponible pour chaque prospect associé à ce compte. Si Sales Qualifier ne peut pas correspondre à un compte, l’onglet affiche _Aucun compte trouvé_.
+Le qualificateur Marketo Adobe identifie le compte à partir de l’enregistrement CRM du prospect. La même vue de compte est disponible pour chaque prospect associé à ce compte. Si le qualificateur Marketo ne peut pas correspondre à un compte, l’onglet affiche _Aucun compte trouvé_.
 
 >[!NOTE]
 >
@@ -59,7 +61,7 @@ Le panneau **[!UICONTROL Présentation du compte]** résume le compte en fonctio
 
 Utilisez les boutons situés sous la vue d’ensemble pour basculer entre les vues de compte. Les vues disponibles dépendent de votre CRM et de votre configuration :
 
-| Afficher | Ce qu’il montre |
+| Affichage | Ce qu’il montre |
 | --- | --- |
 | **[!UICONTROL Opportunités]** | Opportunités ouvertes liées au compte, avec des champs clés pour chacune. Sélectionnez **[!UICONTROL Afficher tout]** pour afficher la liste complète dans un tableau. Les détails de l’opportunité, tels que l’étape, le type et la date de fermeture, peuvent également être utilisés pour filtrer les contacts du compte dans **[!UICONTROL Mes contacts d’opportunité]** lorsqu’un administrateur rend ces champs filtrables. |
 | **[!UICONTROL Membres principaux]** | Les contacts les plus engagés du compte, classés par engagement. Chaque contact affiche son intitulé de poste, son adresse e-mail, son score d’engagement et son indicateur d’urgence. |

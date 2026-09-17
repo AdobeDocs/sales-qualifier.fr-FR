@@ -1,25 +1,29 @@
 ---
 title: Créer et gérer des workflows sortants
-description: Découvrez comment créer, partager, réviser et gérer des workflows sortants générés par l’IA dans Sales Qualifier pour exécuter des cadences de sensibilisation axées sur des objectifs.
+description: Découvrez comment créer, partager, réviser et gérer des workflows sortants générés par l’IA dans Adobe Marketo Qualifier pour exécuter des cadences de sensibilisation axées sur des objectifs.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # Workflows sortants
 
@@ -155,7 +159,7 @@ Les e-mails peuvent également être générés dans la langue du prospect, avec
 
 ## Consulter et affiner les e-mails générés
 
-Une fois la génération terminée, la vue détaillée du workflow sortant vous invite à consulter les brouillons. Sales Qualifier n’envoie pas d’e-mail tant que vous ne l’avez pas approuvé.
+Une fois la génération terminée, la vue détaillée du workflow sortant vous invite à consulter les brouillons. Le qualificateur Marketo d’Adobe n’envoie pas d’e-mail tant que vous ne l’avez pas approuvé.
 
 1. Dans la vue détaillée du workflow sortant, sélectionnez **[!UICONTROL Vérifier les brouillons]** dans la bannière.
 1. L’étape **[!UICONTROL Vérifier les points de contact]** comporte deux onglets :
@@ -234,10 +238,10 @@ La [boîte d’envoi d’e-mail](email-outbox.md) répertorie les e-mails automa
 
 ## Réservation de réunion
 
-Lorsque vous connectez votre calendrier, Sales Qualifier génère un lien de réservation personnel que les prospects peuvent utiliser pour planifier des heures avec vous.
+Lorsque vous connectez votre calendrier, Marketo Qualifier génère un lien de réservation personnel que les prospects peuvent utiliser pour planifier des heures avec vous.
 
 * **Liens de réservation**—Configurez la connexion et la disponibilité de votre calendrier dans [Paramètres du profil](profile-settings.md). Ajoutez le lien de réservation à votre signature d’e-mail afin qu’il apparaisse dans les e-mails sortants.
-* **Placement de cadence** : Sales Qualifier insère votre lien de réservation aux points pertinents d’une cadence. Vous pouvez modifier son emplacement.
+* **Placement de cadence**—Marketo Qualifier insère votre lien de réservation aux points pertinents d&#39;une cadence. Vous pouvez modifier son emplacement.
 * **Pause de la réservation** : lorsqu’un prospect réserve une réunion, **[!UICONTROL Pause de la réservation de la réunion]** arrête les autres suivis. Voir [Étape 4 : Configurer les paramètres de workflow sortant](#step-4-configure-outbound-workflow-settings).
 
 Suivez les résultats de la réservation sur la page [Performances sortantes](performance.md).

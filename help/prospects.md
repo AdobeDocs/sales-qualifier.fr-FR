@@ -1,23 +1,25 @@
 ---
-title: Prospects dans Sales Qualifier
-description: Découvrez comment créer votre liste de prospects à partir de sources CRM, importées et ajoutées manuellement, filtrer les prospects et consulter les détails des prospects dans Sales Qualifier.
+title: Qualificateur de prospects dans Adobe Marketo
+description: Découvrez comment créer votre liste de prospects à partir de sources CRM, importées et ajoutées manuellement, filtrer les prospects et consulter les détails des prospects dans Qualificateur Adobe Marketo.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # Prospects
 
@@ -34,9 +36,9 @@ Sélectionnez **[!UICONTROL Prospects]** dans le volet de navigation de gauche p
 
 La liste des prospects regroupe des personnes provenant de plusieurs sources :
 
-* **Prospects CRM** : Sales Qualifier importe automatiquement les leads et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md).
+* **Prospects CRM** : le qualificateur Adobe Marketo importe automatiquement les prospects et les contacts attribués à l’utilisateur connecté. Pour plus d&#39;informations, consultez la section [&#x200B; Intégrations &#x200B;](integrations.md).
 * **Prospects importés**—Prospects importés à partir d&#39;un fichier CSV.
-* **Prospects ajoutés manuellement**—Prospects ajoutés individuellement dans Sales Qualifier.
+* **Prospects ajoutés manuellement**—Prospects ajoutés individuellement dans le qualificateur Marketo.
 
 Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
@@ -48,7 +50,7 @@ Pour ajouter des prospects qui ne proviennent pas de votre CRM :
 
    * Pour un import CSV, chargez un fichier CSV au format `firstname,email`.
      Vous devez indiquer votre prénom et votre adresse e-mail. Le nom est facultatif. Le modèle CSV n’inclut pas la colonne d’ID de prospect CRM, mais vous pouvez ajouter la colonne et ses valeurs au fichier avant l’importation. Si l’importation échoue, consultez le message d’erreur pour les champs ou valeurs à corriger, puis chargez à nouveau le fichier.
-     Mappez tous les champs CSV personnalisés ou supplémentaires, et pas seulement les champs standard. Sales Qualifier enregistre ces valeurs pour chaque prospect et les rend disponibles ultérieurement, y compris pour la [&#x200B; génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+     Mappez tous les champs CSV personnalisés ou supplémentaires, et pas seulement les champs standard. Marketo Qualifier enregistre ces valeurs pour chaque prospect et les rend disponibles ultérieurement, y compris pour la [&#x200B; génération d’e-mails](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Pour ajouter une personne manuellement, saisissez ses détails dans le formulaire.
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
@@ -79,7 +81,7 @@ Pour filtrer les prospects par points forts marketing :
 
 Chaque prospect montre sa dernière activité [!DNL Marketo] ainsi que son historique récent.
 
-L’option Points forts marketing est disponible dans toutes les régions de production. Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] à Sales Qualifier. Voir [Configurer les points forts marketing](integrations.md#turn-on-marketo-engagement-filtering).
+L’option Points forts marketing est disponible dans toutes les régions de production. Un administrateur effectue une configuration unique qui connecte [!DNL Marketo] au qualificateur Marketo. Voir [Configurer les points forts marketing](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Consulter les détails du prospect
 

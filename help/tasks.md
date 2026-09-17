@@ -1,21 +1,22 @@
 ---
-title: Tâches dans Sales Qualifier
-description: Découvrez comment traiter les tâches de sensibilisation manuelles et examiner les prospects suggérés par les agents dans la file d’attente des tâches Sales Qualifier.
+title: Tâches dans le qualificateur Adobe Marketo
+description: Découvrez comment traiter les tâches de sensibilisation manuelles et examiner les prospects suggérés par l’agent dans la file d’attente de tâches du qualificateur Marketo d’Adobe.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # Tâches
 
@@ -44,7 +45,7 @@ Les tâches manuelles sont liées aux étapes de workflow sortant et existent en
 
 * **[!UICONTROL LinkedInMail]** : créé lorsqu’une cadence atteint une étape LinkedInMail. Le panneau de travail affiche le contenu à copier et à envoyer à partir de LinkedIn. Développez **[!UICONTROL Justification de l’IA]** pour en examiner la justification.
 
-* **[!UICONTROL Email Review]** : créé après que Sales Qualifier a généré les e-mails personnalisés d’un prospect. Sélectionnez **[!UICONTROL Consulter les e-mails]** pour examiner et approuver les brouillons avant que la diffusion ne commence. Voir [Vérifier et affiner les emails générés](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL Email Review]** : créé après que le qualificateur Adobe Marketo a généré les e-mails personnalisés d’un prospect. Sélectionnez **[!UICONTROL Consulter les e-mails]** pour examiner et approuver les brouillons avant que la diffusion ne commence. Voir [Vérifier et affiner les emails générés](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![Email Review](assets/tasks-review.png)
 
